@@ -1,1 +1,1684 @@
-[]
+[
+  {
+    "id": "tpl-rank-cyber-blurple",
+    "title": "Cyber Blurple Glass Rank",
+    "description": "Carte de niveau moderne au style verre dépoli Discord Blurple avec double jauge XP (horizontale et circulaire).",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Rank",
+      "XP",
+      "Frosted Glass",
+      "Level"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-cyber-blurple-1",
+        "name": "Cyber Blurple Glass Rank (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-cyber-blurple"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":130,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#5865F2\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":125,\"text\":\"ShadowGamer#0001\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":175,\"roleName\":\"Champion Diamant\",\"roleColor\":\"#5865F2\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":220,\"top\":220,\"text\":\"Niveau 48 • Rang #1\",\"fontSize\":18,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#57F287\",\"paramKey\":\"levelRank\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":255,\"width\":380,\"height\":24,\"rx\":12,\"ry\":12,\"barStyle\":\"horizontal\",\"progressValue\":78,\"progressMax\":100,\"barBackground\":\"#1A1C23\",\"progressColor\":\"#57F287\",\"gradientFill\":true,\"gradientStart\":\"#5865F2\",\"gradientEnd\":\"#57F287\",\"paramKey\":\"xpBar\"},{\"type\":\"progress-bar\",\"left\":635,\"top\":170,\"width\":110,\"height\":110,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":78,\"progressMax\":100,\"barBackground\":\"#1A1C23\",\"progressColor\":\"#57F287\",\"gradientFill\":true,\"gradientStart\":\"#5865F2\",\"gradientEnd\":\"#57F287\",\"showPercentageText\":true,\"paramKey\":\"xpCircle\"}]}",
+        "updatedAt": 1771434000000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-crimson-void",
+    "title": "Crimson Samurai Void Rank",
+    "description": "Format classique bannière 934x282 avec nébuleuse rouge sang et jauge XP segmentée en 10 blocs.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Samurai",
+      "Crimson",
+      "Banner",
+      "Segmented"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-crimson-void-1",
+        "name": "Crimson Samurai Void Rank (934x282)",
+        "width": 934,
+        "height": 282,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-crimson-flame"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":45,\"top\":50,\"avatarRadius\":60,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#EF4444\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":55,\"text\":\"Akira ~ Shogun\",\"fontSize\":28,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":100,\"roleName\":\"Général Shogun\",\"roleColor\":\"#EF4444\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":200,\"top\":145,\"text\":\"14,250 / 18,000 XP (Niveau 84)\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#FCA5A5\",\"paramKey\":\"xpInfo\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":180,\"width\":680,\"height\":26,\"rx\":6,\"ry\":6,\"barStyle\":\"segmented\",\"segments\":10,\"progressValue\":8,\"progressMax\":10,\"barBackground\":\"#20080B\",\"progressColor\":\"#EF4444\",\"gradientFill\":true,\"gradientStart\":\"#EF4444\",\"gradientEnd\":\"#F97316\",\"paramKey\":\"xpSegments\"}]}",
+        "updatedAt": 1771434001000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-emerald-matrix",
+    "title": "Matrix Emerald Hacker Rank",
+    "description": "Style terminal cybernétique 900x400 avec caractères néon verts et jauge de progression binaire.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Matrix",
+      "Emerald",
+      "Cyber",
+      "Hacker"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-emerald-matrix-1",
+        "name": "Matrix Emerald Hacker Rank (900x400)",
+        "width": 900,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "neon-matrix"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":55,\"top\":100,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#57F287\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":95,\"text\":\"Root#0x4A\",\"fontSize\":32,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"800\",\"fill\":\"#57F287\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":145,\"roleName\":\"NETRUNNER ELITE\",\"roleColor\":\"#57F287\",\"fontSize\":14,\"rx\":4,\"ry\":4,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":220,\"top\":195,\"text\":\"Buffer Level : 92.4% [SYS_OK]\",\"fontSize\":16,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"600\",\"fill\":\"#A7F3D0\",\"paramKey\":\"statusText\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":235,\"width\":620,\"height\":24,\"rx\":4,\"ry\":4,\"barStyle\":\"horizontal\",\"progressValue\":92,\"progressMax\":100,\"barBackground\":\"#062816\",\"progressColor\":\"#57F287\",\"gradientFill\":true,\"gradientStart\":\"#10B981\",\"gradientEnd\":\"#57F287\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434002000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-synthwave-neon",
+    "title": "Synthwave Horizon Neon Rank",
+    "description": "Ambiance rétro-futuriste sunset 850x360 violette et rose avec soleil dégradé et jauge XP néon.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Synthwave",
+      "Neon",
+      "Retro",
+      "Purple"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-synthwave-neon-1",
+        "name": "Synthwave Horizon Neon Rank (850x360)",
+        "width": 850,
+        "height": 360,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "synthwave-grid"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":60,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#00F0FF\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":210,\"top\":65,\"text\":\"OUTRUN_84\",\"fontSize\":30,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FEE75C\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":210,\"top\":115,\"roleName\":\"RETRO MASTER\",\"roleColor\":\"#EB459E\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":210,\"top\":165,\"width\":580,\"height\":26,\"rx\":13,\"ry\":13,\"barStyle\":\"horizontal\",\"progressValue\":85,\"progressMax\":100,\"barBackground\":\"#1E0B36\",\"progressColor\":\"#EB459E\",\"gradientFill\":true,\"gradientStart\":\"#EB459E\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434003000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-golden-luxury",
+    "title": "Golden Prestige Royalty Rank",
+    "description": "Carte de rang VIP 800x450 sur fond noir obsidienne et filets d'or avec jauge radiale dorée.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Gold",
+      "Luxury",
+      "Prestige",
+      "Radial"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-golden-luxury-1",
+        "name": "Golden Prestige Royalty Rank (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-golden-champagne"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FACC15\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":125,\"text\":\"Lord Aurelius\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":175,\"roleName\":\"MEMBRE VIP GOLD\",\"roleColor\":\"#FACC15\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":240,\"width\":380,\"height\":24,\"rx\":12,\"ry\":12,\"barStyle\":\"horizontal\",\"progressValue\":94,\"progressMax\":100,\"barBackground\":\"#241908\",\"progressColor\":\"#FACC15\",\"gradientFill\":true,\"gradientStart\":\"#FACC15\",\"gradientEnd\":\"#F97316\",\"paramKey\":\"xpBar\"},{\"type\":\"progress-bar\",\"left\":635,\"top\":165,\"width\":110,\"height\":110,\"rx\":14,\"ry\":14,\"barStyle\":\"radial\",\"progressValue\":94,\"progressMax\":100,\"barBackground\":\"#241908\",\"progressColor\":\"#FACC15\",\"gradientFill\":true,\"gradientStart\":\"#FACC15\",\"gradientEnd\":\"#FDE047\",\"showPercentageText\":true,\"paramKey\":\"radialGauge\"}]}",
+        "updatedAt": 1771434004000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-ice-glacier",
+    "title": "Glacier Frost Sub-Zero Rank",
+    "description": "Format compact 750x380 sur verre dépoli bleu glacier avec jauge circulaire givrée.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Ice",
+      "Frost",
+      "Glacier",
+      "Blue"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-ice-glacier-1",
+        "name": "Glacier Frost Sub-Zero Rank (750x380)",
+        "width": 750,
+        "height": 380,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-ice-glacier"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":90,\"avatarRadius\":60,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#BAE6FD\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":90,\"text\":\"FrostGuard\",\"fontSize\":28,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":135,\"roleName\":\"GARDIEN DU NORD\",\"roleColor\":\"#38BDF8\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":195,\"width\":360,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#07243A\",\"progressColor\":\"#38BDF8\",\"gradientFill\":true,\"gradientStart\":\"#38BDF8\",\"gradientEnd\":\"#E0F2FE\",\"paramKey\":\"xpBar\"},{\"type\":\"progress-bar\",\"left\":590,\"top\":130,\"width\":105,\"height\":105,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#07243A\",\"progressColor\":\"#38BDF8\",\"gradientFill\":true,\"gradientStart\":\"#0284C7\",\"gradientEnd\":\"#E0F2FE\",\"showPercentageText\":true,\"paramKey\":\"iceCircle\"}]}",
+        "updatedAt": 1771434005000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-toxic-mesh",
+    "title": "Toxic Hazard Bio-Rank",
+    "description": "Format large 934x320 zone radioactive verte fluo avec badge Hazmat et jauge segmentée.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Toxic",
+      "Green",
+      "Hazard",
+      "Radioactive"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-toxic-mesh-1",
+        "name": "Toxic Hazard Bio-Rank (934x320)",
+        "width": 934,
+        "height": 320,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "toxic-waste"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":55,\"top\":60,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#22C55E\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":215,\"top\":60,\"text\":\"Stalker_99\",\"fontSize\":30,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":215,\"top\":110,\"roleName\":\"HAZMAT LEVEL 5\",\"roleColor\":\"#22C55E\",\"fontSize\":14,\"rx\":4,\"ry\":4,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":215,\"top\":170,\"width\":660,\"height\":26,\"rx\":6,\"ry\":6,\"barStyle\":\"segmented\",\"segments\":10,\"progressValue\":9,\"progressMax\":10,\"barBackground\":\"#04281E\",\"progressColor\":\"#22C55E\",\"gradientFill\":true,\"gradientStart\":\"#22C55E\",\"gradientEnd\":\"#EAB308\",\"paramKey\":\"toxicSegments\"}]}",
+        "updatedAt": 1771434006000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-obsidian-gold",
+    "title": "Obsidian Gold Elite Rank",
+    "description": "Design épuré 750x350 noir profond avec jauge dorée fine et typographie haute visibilité.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Obsidian",
+      "Gold",
+      "Minimalist",
+      "Clean"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-obsidian-gold-1",
+        "name": "Obsidian Gold Elite Rank (750x350)",
+        "width": 750,
+        "height": 350,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "obsidian-gold"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":85,\"avatarRadius\":55,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#EAB308\",\"borderWidth\":2,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":190,\"top\":85,\"text\":\"ObsidianElite\",\"fontSize\":28,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":190,\"top\":130,\"roleName\":\"PRESTIGE BLACK\",\"roleColor\":\"#CA8A04\",\"fontSize\":13,\"rx\":4,\"ry\":4,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":190,\"top\":180,\"width\":500,\"height\":16,\"rx\":8,\"ry\":8,\"barStyle\":\"horizontal\",\"progressValue\":75,\"progressMax\":100,\"barBackground\":\"#18181B\",\"progressColor\":\"#EAB308\",\"gradientFill\":true,\"gradientStart\":\"#EAB308\",\"gradientEnd\":\"#CA8A04\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434007000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-quantum-core",
+    "title": "Quantum Core Atomic Rank",
+    "description": "Format 800x450 avec anneaux atomiques quantiques, jauge centrale et halo indigo fluorescent.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Indigo",
+      "Futuristic"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-quantum-core-1",
+        "name": "Quantum Core Atomic Rank (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "quantum-rings"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#6366F1\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":125,\"text\":\"QuantumUser\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":175,\"roleName\":\"QUANTUM PHYSICIST\",\"roleColor\":\"#6366F1\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":240,\"width\":500,\"height\":24,\"rx\":12,\"ry\":12,\"barStyle\":\"horizontal\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#100E2B\",\"progressColor\":\"#6366F1\",\"gradientFill\":true,\"gradientStart\":\"#6366F1\",\"gradientEnd\":\"#A855F7\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434008000
+      }
+    ]
+  },
+  {
+    "id": "tpl-rank-sunset-amber",
+    "title": "Sunset Amber Glow Rank",
+    "description": "Dégradé crépusculaire chaud 900x420 orange/rose sur verre dépoli avec jauge circulaire d'expérience.",
+    "author": "Ifanoxy",
+    "category": "rank",
+    "tags": [
+      "Sunset",
+      "Amber",
+      "Frosted Glass",
+      "Warm"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-rank-sunset-amber-1",
+        "name": "Sunset Amber Glow Rank (900x420)",
+        "width": 900,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-sunset-amber"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":110,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#F97316\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":110,\"text\":\"AmberSunset\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":160,\"roleName\":\"HORIZON VIP\",\"roleColor\":\"#F97316\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":220,\"width\":440,\"height\":24,\"rx\":12,\"ry\":12,\"barStyle\":\"horizontal\",\"progressValue\":80,\"progressMax\":100,\"barBackground\":\"#260B18\",\"progressColor\":\"#F97316\",\"gradientFill\":true,\"gradientStart\":\"#F97316\",\"gradientEnd\":\"#DB2777\",\"paramKey\":\"xpBar\"},{\"type\":\"progress-bar\",\"left\":710,\"top\":145,\"width\":110,\"height\":110,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":80,\"progressMax\":100,\"barBackground\":\"#260B18\",\"progressColor\":\"#F97316\",\"gradientFill\":true,\"gradientStart\":\"#F97316\",\"gradientEnd\":\"#DB2777\",\"showPercentageText\":true,\"paramKey\":\"sunsetCircle\"}]}",
+        "updatedAt": 1771434009000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-aurora-dual",
+    "title": "Aurora Dual Glow Welcome Banner",
+    "description": "Bannière d'accueil HD 1024x576 avec avatar centralisé, double halo aurore cyan/rose et compteur dynamique.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Welcome",
+      "Banner",
+      "Aurora",
+      "Glow"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-aurora-dual-1",
+        "name": "Aurora Dual Glow Welcome Banner (1024x576)",
+        "width": 1024,
+        "height": 576,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-aurora-dual"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":437,\"top\":90,\"avatarRadius\":75,\"status\":\"none\",\"displayMode\":\"avatar-only\",\"borderColor\":\"#00F0FF\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"memberAvatar\"},{\"type\":\"i-text\",\"left\":512,\"top\":285,\"originX\":\"center\",\"text\":\"BIENVENUE SUR LE SERVEUR\",\"fontSize\":36,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"welcomeHeader\"},{\"type\":\"i-text\",\"left\":512,\"top\":340,\"originX\":\"center\",\"text\":\"{username} vient de rejoindre l'aventure !\",\"fontSize\":22,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#EC4899\",\"paramKey\":\"welcomeUser\"},{\"type\":\"discord-role-badge\",\"left\":512,\"top\":395,\"originX\":\"center\",\"roleName\":\"Membre #1 450\",\"roleColor\":\"#00F0FF\",\"fontSize\":16,\"rx\":8,\"ry\":8,\"paramKey\":\"memberCount\"}]}",
+        "updatedAt": 1771434010000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-minimal-noir",
+    "title": "Titanium Dark Club Welcome",
+    "description": "Format large 960x360 style titane noir épuré avec typographie moderne et rappel de règles.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Minimalist",
+      "Dark",
+      "Welcome",
+      "Titanium"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-minimal-noir-1",
+        "name": "Titanium Dark Club Welcome (960x360)",
+        "width": 960,
+        "height": 360,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-midnight-noir"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":100,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FFFFFF\",\"borderWidth\":2,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":95,\"text\":\"WELCOME TO THE CLUB\",\"fontSize\":34,\"fontFamily\":\"Space Grotesk\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"clubTitle\"},{\"type\":\"i-text\",\"left\":220,\"top\":145,\"text\":\"Heureux de t'accueillir {username}.\",\"fontSize\":18,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fill\":\"#A1A1AA\",\"paramKey\":\"welcomeMsg\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":195,\"roleName\":\"Règlement dans #rules\",\"roleColor\":\"#71717A\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"rulesBadge\"}]}",
+        "updatedAt": 1771434011000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-sakura-blossom",
+    "title": "Sakura Night Serenity Welcome",
+    "description": "Bannière d'accueil 960x500 avec pétales de cerisier japonais et message de bienvenue pastel.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Sakura",
+      "Welcome",
+      "Anime",
+      "Japan"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-sakura-blossom-1",
+        "name": "Sakura Night Serenity Welcome (960x500)",
+        "width": 960,
+        "height": 500,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "sakura-night"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":405,\"top\":80,\"avatarRadius\":75,\"status\":\"none\",\"displayMode\":\"avatar-only\",\"borderColor\":\"#F472B6\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"memberAvatar\"},{\"type\":\"i-text\",\"left\":480,\"top\":260,\"originX\":\"center\",\"text\":\"BIENVENUE AU JARDIN SAKURA\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"header\"},{\"type\":\"i-text\",\"left\":480,\"top\":310,\"originX\":\"center\",\"text\":\"Prends un thé et installe-toi confortablement {username} 🌸\",\"fontSize\":18,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#FBCFE8\",\"paramKey\":\"sub\"}]}",
+        "updatedAt": 1771434012000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-cyber-grid",
+    "title": "Cyberpunk 2077 Welcome Banner",
+    "description": "Format ultrawide 1100x400 haute énergie avec trame hexagonale et badge d'accès serveur.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Cyberpunk",
+      "Hexagon",
+      "Welcome",
+      "Green"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-cyber-grid-1",
+        "name": "Cyberpunk 2077 Welcome Banner (1100x400)",
+        "width": 1100,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "isometric-hex"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":70,\"top\":110,\"avatarRadius\":70,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#57F287\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":240,\"top\":105,\"text\":\"NOUVEL AGENT DÉTECTÉ\",\"fontSize\":34,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"900\",\"fill\":\"#57F287\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":240,\"top\":155,\"text\":\"Connexion établie pour {username} au réseau.\",\"fontSize\":20,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#FFFFFF\",\"paramKey\":\"desc\"},{\"type\":\"discord-role-badge\",\"left\":240,\"top\":210,\"roleName\":\"ID SECURISE : PASS-ACCES\",\"roleColor\":\"#57F287\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"}]}",
+        "updatedAt": 1771434013000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-space-nebula",
+    "title": "Cosmic Space Voyager Welcome",
+    "description": "Bannière spatiale 960x540 avec nébuleuse étoilée violette et identification d'équipage.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Space",
+      "Nebula",
+      "Cosmic",
+      "Welcome"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-space-nebula-1",
+        "name": "Cosmic Space Voyager Welcome (960x540)",
+        "width": 960,
+        "height": 540,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "nebula-galaxy"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":405,\"top\":85,\"avatarRadius\":75,\"status\":\"none\",\"displayMode\":\"avatar-only\",\"borderColor\":\"#C084FC\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"avatarUrl\"},{\"type\":\"i-text\",\"left\":480,\"top\":275,\"originX\":\"center\",\"text\":\"BIENVENUE À BORD DU VAISSEAU\",\"fontSize\":34,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"welcHeader\"},{\"type\":\"i-text\",\"left\":480,\"top\":330,\"originX\":\"center\",\"text\":\"Passager {username} • Destination Galaxie Discord\",\"fontSize\":20,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#E879F9\",\"paramKey\":\"sub\"}]}",
+        "updatedAt": 1771434014000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-ocean-abyss",
+    "title": "Ocean Abyss Deep Blue Welcome",
+    "description": "Format 900x450 sous-marin mystérieux avec dégradé cyan océanique et badge abyssal.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Ocean",
+      "Abyss",
+      "Blue",
+      "Welcome"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-ocean-abyss-1",
+        "name": "Ocean Abyss Deep Blue Welcome (900x450)",
+        "width": 900,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "ocean-abyss"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":135,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#00D2FF\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":130,\"text\":\"BIENVENUE DANS LES ABYSSES\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#00D2FF\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":220,\"top\":180,\"text\":\"Plonge dans la communauté avec {username}.\",\"fontSize\":18,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#E0F2FE\",\"paramKey\":\"sub\"}]}",
+        "updatedAt": 1771434015000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-arcade-retro",
+    "title": "80s Arcade Insert Coin Welcome",
+    "description": "Format arcade 900x480 avec typographie lumineuse et statut Player 2 Connected.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Arcade",
+      "Retro",
+      "80s",
+      "Pixel"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-arcade-retro-1",
+        "name": "80s Arcade Insert Coin Welcome (900x480)",
+        "width": 900,
+        "height": 480,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "arcade-neon"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":140,\"avatarRadius\":70,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#00F0FF\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":230,\"top\":135,\"text\":\"PLAYER JOINED THE GAME\",\"fontSize\":34,\"fontFamily\":\"Russo One\",\"fontWeight\":\"900\",\"fill\":\"#FEE75C\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":230,\"top\":190,\"text\":\"{username} est prêt à jouer !\",\"fontSize\":22,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#00F0FF\",\"paramKey\":\"sub\"},{\"type\":\"discord-role-badge\",\"left\":230,\"top\":245,\"roleName\":\"PRESS START TO CHAT\",\"roleColor\":\"#EB459E\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"}]}",
+        "updatedAt": 1771434016000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-hologram-scan",
+    "title": "Sci-Fi Hologram Gateway Welcome",
+    "description": "Format 850x380 style sas holographique avec lignes de scan et identification biométrique.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Sci-Fi",
+      "Hologram",
+      "Scanlines",
+      "Welcome"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-hologram-scan-1",
+        "name": "Sci-Fi Hologram Gateway Welcome (850x380)",
+        "width": 850,
+        "height": 380,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "hologram-scan"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":100,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#00F0FF\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":210,\"top\":95,\"text\":\"IDENTIFICATION BIOMÉTRIQUE OK\",\"fontSize\":26,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"800\",\"fill\":\"#00F0FF\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":210,\"top\":145,\"text\":\"Accès accordé au membre {username}.\",\"fontSize\":18,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#FFFFFF\",\"paramKey\":\"sub\"}]}",
+        "updatedAt": 1771434017000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-cotton-candy",
+    "title": "Pastel Cotton Candy Welcome",
+    "description": "Bannière pastel 900x480 barbe à papa douce et joyeuse pour serveurs chill.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Pastel",
+      "Candy",
+      "Cute",
+      "Welcome"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-cotton-candy-1",
+        "name": "Pastel Cotton Candy Welcome (900x480)",
+        "width": 900,
+        "height": 480,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "cotton-candy"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":375,\"top\":75,\"avatarRadius\":75,\"status\":\"none\",\"displayMode\":\"avatar-only\",\"borderColor\":\"#F472B6\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\"},{\"type\":\"i-text\",\"left\":450,\"top\":255,\"originX\":\"center\",\"text\":\"BIENVENUE PARMI NOUS 💕\",\"fontSize\":32,\"fontFamily\":\"Fredoka\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":450,\"top\":305,\"originX\":\"center\",\"text\":\"{username} vient d'arriver !\",\"fontSize\":20,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#38BDF8\",\"paramKey\":\"sub\"}]}",
+        "updatedAt": 1771434018000
+      }
+    ]
+  },
+  {
+    "id": "tpl-welc-blueprint-tech",
+    "title": "Architect Blueprint Server Welcome",
+    "description": "Bannière 960x400 style plan d'architecte avec grille technique et coordonnées.",
+    "author": "Ifanoxy",
+    "category": "welcome",
+    "tags": [
+      "Blueprint",
+      "Technical",
+      "Grid",
+      "Welcome"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-welc-blueprint-tech-1",
+        "name": "Architect Blueprint Server Welcome (960x400)",
+        "width": 960,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "blueprint-grid"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":110,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FFFFFF\",\"borderWidth\":2,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":105,\"text\":\"SYSTEM BLUEPRINT INITIALIZED\",\"fontSize\":28,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":220,\"top\":150,\"text\":\"Nouveau constructeur enregistré : {username}\",\"fontSize\":18,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#93C5FD\",\"paramKey\":\"sub\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":200,\"roleName\":\"SECTOR #01 • COORD [48.8, 2.3]\",\"roleColor\":\"#3B82F6\",\"fontSize\":13,\"rx\":4,\"ry\":4,\"paramKey\":\"badge\"}]}",
+        "updatedAt": 1771434019000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-nitro-violet",
+    "title": "Midnight Nitro Glow Profile Card",
+    "description": "Format profil 750x500 intégrant une bannière dégradée, avatar avec halo améthyste et badges.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Profile",
+      "Nitro",
+      "Banner",
+      "Violet"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-nitro-violet-1",
+        "name": "Midnight Nitro Glow Profile Card (750x500)",
+        "width": 750,
+        "height": 500,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-violet-neon"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-banner\",\"left\":40,\"top\":40,\"width\":670,\"height\":160,\"rx\":14,\"ry\":14,\"bannerType\":\"gradient\",\"gradientStart\":\"#581C87\",\"gradientEnd\":\"#1E1B4B\",\"paramKey\":\"bannerUrl\"},{\"type\":\"discord-avatar\",\"left\":70,\"top\":140,\"avatarRadius\":55,\"status\":\"idle\",\"displayMode\":\"both\",\"borderColor\":\"#A855F7\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":210,\"top\":225,\"text\":\"Vipera#0001\",\"fontSize\":28,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":210,\"top\":265,\"roleName\":\"NITRO BOOSTER\",\"roleColor\":\"#EC4899\",\"fontSize\":13,\"rx\":6,\"ry\":6,\"paramKey\":\"roleBadge\"},{\"type\":\"discord-role-badge\",\"left\":360,\"top\":265,\"roleName\":\"BOT DEVELOPER\",\"roleColor\":\"#5865F2\",\"fontSize\":13,\"rx\":6,\"ry\":6,\"paramKey\":\"devBadge\"},{\"type\":\"i-text\",\"left\":70,\"top\":330,\"text\":\"Créateur de bots Discord innovants • TypeScript & Canvas Lover 🚀\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fill\":\"#CBD5E1\",\"paramKey\":\"userBio\"},{\"type\":\"progress-bar\",\"left\":70,\"top\":380,\"width\":610,\"height\":18,\"rx\":9,\"ry\":9,\"barStyle\":\"horizontal\",\"progressValue\":85,\"progressMax\":100,\"barBackground\":\"#180C28\",\"progressColor\":\"#A855F7\",\"gradientFill\":true,\"gradientStart\":\"#A855F7\",\"gradientEnd\":\"#EC4899\",\"paramKey\":\"profileLevel\"}]}",
+        "updatedAt": 1771434020000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-golden-prestige",
+    "title": "Golden Luxury Prestige VIP Card",
+    "description": "Format 800x450 prestige noir et or champagne avec anneau circulaire de réputation et badge VIP.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Gold",
+      "Luxury",
+      "Prestige",
+      "VIP"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-golden-prestige-1",
+        "name": "Golden Luxury Prestige VIP Card (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-golden-champagne"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FACC15\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":125,\"text\":\"Lord Aurelius\",\"fontSize\":32,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":175,\"roleName\":\"MEMBRE VIP GOLD\",\"roleColor\":\"#FACC15\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":220,\"top\":220,\"text\":\"Réputation globale : 98.4% (520 votes)\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#FEF08A\",\"paramKey\":\"repText\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":255,\"width\":380,\"height\":24,\"rx\":12,\"ry\":12,\"barStyle\":\"horizontal\",\"progressValue\":92,\"progressMax\":100,\"barBackground\":\"#241908\",\"progressColor\":\"#FACC15\",\"gradientFill\":true,\"gradientStart\":\"#FACC15\",\"gradientEnd\":\"#F97316\",\"paramKey\":\"goldXp\"},{\"type\":\"progress-bar\",\"left\":635,\"top\":165,\"width\":110,\"height\":110,\"rx\":14,\"ry\":14,\"barStyle\":\"radial\",\"progressValue\":94,\"progressMax\":100,\"barBackground\":\"#241908\",\"progressColor\":\"#FACC15\",\"gradientFill\":true,\"gradientStart\":\"#FACC15\",\"gradientEnd\":\"#FDE047\",\"showPercentageText\":true,\"paramKey\":\"radialRep\"}]}",
+        "updatedAt": 1771434021000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-cyber-emerald",
+    "title": "Emerald Circuit Cyber Profile",
+    "description": "Format compact 700x450 style carte mère avec badges techniques et barre d'activité.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Emerald",
+      "Circuit",
+      "Tech",
+      "Cyber"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-cyber-emerald-1",
+        "name": "Emerald Circuit Cyber Profile (700x450)",
+        "width": 700,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-emerald-pulse"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":115,\"avatarRadius\":60,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#10B981\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":190,\"top\":115,\"text\":\"KernelDev\",\"fontSize\":30,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":190,\"top\":160,\"roleName\":\"SYSTEM ARCHITECT\",\"roleColor\":\"#10B981\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":190,\"top\":205,\"text\":\"Activité : Build production v2.4 ⚙️\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#A7F3D0\",\"paramKey\":\"activity\"},{\"type\":\"progress-bar\",\"left\":190,\"top\":240,\"width\":450,\"height\":20,\"rx\":10,\"ry\":10,\"barStyle\":\"horizontal\",\"progressValue\":75,\"progressMax\":100,\"barBackground\":\"#04281E\",\"progressColor\":\"#10B981\",\"gradientFill\":true,\"gradientStart\":\"#10B981\",\"gradientEnd\":\"#34D399\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434022000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-glacier-nitro",
+    "title": "Sub-Zero Polar Nitro Profile",
+    "description": "Format carré 600x600 épuré givré sur fond bleu polaire avec bio personnalisée.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Polar",
+      "Square",
+      "Nitro",
+      "Profile"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-glacier-nitro-1",
+        "name": "Sub-Zero Polar Nitro Profile (600x600)",
+        "width": 600,
+        "height": 600,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-ice-glacier"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":235,\"top\":80,\"avatarRadius\":65,\"status\":\"idle\",\"displayMode\":\"both\",\"borderColor\":\"#BAE6FD\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":300,\"top\":240,\"originX\":\"center\",\"text\":\"FrostByte#1337\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":300,\"top\":295,\"originX\":\"center\",\"roleName\":\"POLAR EXPLORER\",\"roleColor\":\"#38BDF8\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":300,\"top\":360,\"originX\":\"center\",\"text\":\"Gaming, bots Discord et café chaud ❄️☕\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fill\":\"#E0F2FE\",\"paramKey\":\"bio\"}]}",
+        "updatedAt": 1771434023000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-crimson-blood",
+    "title": "Blood Moon Vampire Profile",
+    "description": "Format 750x420 sombre avec lune rouge sang et badge de clan vampirique.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "BloodMoon",
+      "Vampire",
+      "Red",
+      "Gothic"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-crimson-blood-1",
+        "name": "Blood Moon Vampire Profile (750x420)",
+        "width": 750,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "blood-moon"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":110,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#EF4444\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":110,\"text\":\"Vlad_Alucard\",\"fontSize\":30,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":160,\"roleName\":\"MAITRE DU CLAN\",\"roleColor\":\"#EF4444\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":200,\"top\":210,\"text\":\"Actif uniquement après minuit 🌙\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fill\":\"#FCA5A5\",\"paramKey\":\"bio\"}]}",
+        "updatedAt": 1771434024000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-carbon-minimal",
+    "title": "Carbon Fiber Stealth Profile",
+    "description": "Format 800x400 texture fibre de carbone tissée style sport automobile.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Carbon",
+      "Stealth",
+      "Car",
+      "Minimalist"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-carbon-minimal-1",
+        "name": "Carbon Fiber Stealth Profile (800x400)",
+        "width": 800,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "carbon-fiber"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":100,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FFFFFF\",\"borderWidth\":2,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":100,\"text\":\"ApexPilot\",\"fontSize\":32,\"fontFamily\":\"Space Grotesk\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":150,\"roleName\":\"CARBON PILOT #01\",\"roleColor\":\"#94A3B8\",\"fontSize\":13,\"rx\":4,\"ry\":4,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":200,\"top\":200,\"text\":\"Simracing, telemetry and Discord setup enthusiast 🏎️\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fill\":\"#CBD5E1\",\"paramKey\":\"bio\"}]}",
+        "updatedAt": 1771434025000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-holographic-foil",
+    "title": "Holographic Foil Prism Profile",
+    "description": "Format 750x450 aux reflets prismatiques métalliques multicolores.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Holographic",
+      "Prism",
+      "Foil",
+      "Metallic"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-holographic-foil-1",
+        "name": "Holographic Foil Prism Profile (750x450)",
+        "width": 750,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "holographic-foil"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":120,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#EC4899\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":120,\"text\":\"PrismaGlow\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":170,\"roleName\":\"HOLO CREATOR\",\"roleColor\":\"#EC4899\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":230,\"width\":480,\"height\":20,\"rx\":10,\"ry\":10,\"barStyle\":\"horizontal\",\"progressValue\":80,\"progressMax\":100,\"barBackground\":\"#1E1B4B\",\"progressColor\":\"#EC4899\",\"gradientFill\":true,\"gradientStart\":\"#EC4899\",\"gradientEnd\":\"#38BDF8\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434026000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-zen-garden",
+    "title": "Zen Garden Matcha Profile",
+    "description": "Format 750x400 thé vert matcha apaisant et crème avec citation zen.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Zen",
+      "Matcha",
+      "Green",
+      "Peaceful"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-zen-garden-1",
+        "name": "Zen Garden Matcha Profile (750x400)",
+        "width": 750,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "zen-gradient"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":100,\"avatarRadius\":65,\"status\":\"idle\",\"displayMode\":\"both\",\"borderColor\":\"#34D399\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":100,\"text\":\"ZenMatcha\",\"fontSize\":30,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":150,\"roleName\":\"SÉRÉNITÉ & NATURE\",\"roleColor\":\"#34D399\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":200,\"top\":200,\"text\":\"« La simplicité est la sophistication suprême » 🍵\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fontStyle\":\"italic\",\"fill\":\"#A7F3D0\",\"paramKey\":\"quote\"}]}",
+        "updatedAt": 1771434027000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-supernova-gold",
+    "title": "Supernova Stellar Profile",
+    "description": "Format 800x450 éclatant avec halo de supernova cosmique et badge stellaire doré.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Supernova",
+      "Gold",
+      "Star",
+      "Space"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-supernova-gold-1",
+        "name": "Supernova Stellar Profile (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "supernova"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FBBF24\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":125,\"text\":\"SupernovaUser\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":175,\"roleName\":\"STELLAR COMMANDER\",\"roleColor\":\"#FBBF24\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":235,\"width\":480,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":95,\"progressMax\":100,\"barBackground\":\"#1C0D02\",\"progressColor\":\"#FBBF24\",\"gradientFill\":true,\"gradientStart\":\"#FBBF24\",\"gradientEnd\":\"#EA580C\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434028000
+      }
+    ]
+  },
+  {
+    "id": "tpl-prof-cosmic-aurora",
+    "title": "Multiverse Cosmic Aurora Profile",
+    "description": "Format 850x450 multi-dimensionnel avec aurore cosmique et jauge d'énergie dimensionnelle.",
+    "author": "Ifanoxy",
+    "category": "profile",
+    "tags": [
+      "Cosmic",
+      "Aurora",
+      "Multiverse",
+      "Profile"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-prof-cosmic-aurora-1",
+        "name": "Multiverse Cosmic Aurora Profile (850x450)",
+        "width": 850,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "cosmic-aurora-3d"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#06B6D4\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":125,\"text\":\"AstroVoyager\",\"fontSize\":32,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":175,\"roleName\":\"DIMENSION HOPPER\",\"roleColor\":\"#06B6D4\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":235,\"width\":520,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#0E0B1F\",\"progressColor\":\"#06B6D4\",\"gradientFill\":true,\"gradientStart\":\"#A855F7\",\"gradientEnd\":\"#06B6D4\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434029000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-server-radar",
+    "title": "Server Metrics & Hardware Radar",
+    "description": "Format tableau de bord 960x480 avec 3 jauges (CPU circulaire, RAM radiale, Ping horizontal).",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Stats",
+      "Dashboard",
+      "Metrics",
+      "Gauges"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-server-radar-1",
+        "name": "Server Metrics & Hardware Radar (960x480)",
+        "width": 960,
+        "height": 480,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-cyan-aura"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"i-text\",\"left\":50,\"top\":50,\"text\":\"SERVEUR METRICS & STATS\",\"fontSize\":28,\"fontFamily\":\"Space Grotesk\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"dashTitle\"},{\"type\":\"discord-role-badge\",\"left\":50,\"top\":95,\"roleName\":\"Statut : En Ligne (99.9%)\",\"roleColor\":\"#10B981\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"statusBadge\"},{\"type\":\"progress-bar\",\"left\":80,\"top\":160,\"width\":160,\"height\":160,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":42,\"progressMax\":100,\"barBackground\":\"#091A28\",\"progressColor\":\"#00F0FF\",\"gradientFill\":true,\"gradientStart\":\"#00F0FF\",\"gradientEnd\":\"#38BDF8\",\"showPercentageText\":true,\"paramKey\":\"cpuGauge\"},{\"type\":\"i-text\",\"left\":160,\"top\":340,\"originX\":\"center\",\"text\":\"CPU Usage\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#00F0FF\",\"paramKey\":\"cpuLabel\"},{\"type\":\"progress-bar\",\"left\":400,\"top\":160,\"width\":160,\"height\":160,\"rx\":14,\"ry\":14,\"barStyle\":\"radial\",\"progressValue\":68,\"progressMax\":100,\"barBackground\":\"#091A28\",\"progressColor\":\"#A855F7\",\"gradientFill\":true,\"gradientStart\":\"#A855F7\",\"gradientEnd\":\"#EC4899\",\"showPercentageText\":true,\"paramKey\":\"ramGauge\"},{\"type\":\"i-text\",\"left\":480,\"top\":340,\"originX\":\"center\",\"text\":\"RAM (10.8 / 16 GB)\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#A855F7\",\"paramKey\":\"ramLabel\"},{\"type\":\"progress-bar\",\"left\":720,\"top\":160,\"width\":160,\"height\":160,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":95,\"progressMax\":100,\"barBackground\":\"#091A28\",\"progressColor\":\"#10B981\",\"gradientFill\":true,\"gradientStart\":\"#10B981\",\"gradientEnd\":\"#34D399\",\"showPercentageText\":true,\"paramKey\":\"pingGauge\"},{\"type\":\"i-text\",\"left\":800,\"top\":340,\"originX\":\"center\",\"text\":\"Ping: 18ms\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#10B981\",\"paramKey\":\"pingLabel\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":400,\"width\":860,\"height\":16,\"rx\":8,\"ry\":8,\"barStyle\":\"horizontal\",\"progressValue\":78,\"progressMax\":100,\"barBackground\":\"#091A28\",\"progressColor\":\"#00F0FF\",\"gradientFill\":true,\"gradientStart\":\"#00F0FF\",\"gradientEnd\":\"#10B981\",\"paramKey\":\"uptimeBar\"}]}",
+        "updatedAt": 1771434030000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-network-monitor",
+    "title": "Network Traffic & Bandwidth Monitor",
+    "description": "Format 900x420 monitoring de bande passante avec barres de débit Download, Upload et Latence.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Network",
+      "Traffic",
+      "Bandwidth",
+      "Stats"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-network-monitor-1",
+        "name": "Network Traffic & Bandwidth Monitor (900x420)",
+        "width": 900,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "digital-circuit"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"i-text\",\"left\":50,\"top\":40,\"text\":\"TRAFIC RÉSEAU & FLUX DE DONNÉES\",\"fontSize\":26,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":50,\"top\":105,\"text\":\"Download : 850 Mbps\",\"fontSize\":16,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"700\",\"fill\":\"#38BDF8\",\"paramKey\":\"downText\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":135,\"width\":800,\"height\":22,\"rx\":6,\"ry\":6,\"barStyle\":\"horizontal\",\"progressValue\":85,\"progressMax\":100,\"barBackground\":\"#0B1728\",\"progressColor\":\"#38BDF8\",\"gradientFill\":true,\"gradientStart\":\"#38BDF8\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"downBar\"},{\"type\":\"i-text\",\"left\":50,\"top\":185,\"text\":\"Upload : 420 Mbps\",\"fontSize\":16,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"700\",\"fill\":\"#57F287\",\"paramKey\":\"upText\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":215,\"width\":800,\"height\":22,\"rx\":6,\"ry\":6,\"barStyle\":\"horizontal\",\"progressValue\":42,\"progressMax\":100,\"barBackground\":\"#0B1728\",\"progressColor\":\"#57F287\",\"gradientFill\":true,\"gradientStart\":\"#57F287\",\"gradientEnd\":\"#10B981\",\"paramKey\":\"upBar\"},{\"type\":\"i-text\",\"left\":50,\"top\":265,\"text\":\"Latence Passerelle : 4ms\",\"fontSize\":16,\"fontFamily\":\"Fira Code\",\"fontWeight\":\"700\",\"fill\":\"#FBBF24\",\"paramKey\":\"pingText\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":295,\"width\":800,\"height\":22,\"rx\":6,\"ry\":6,\"barStyle\":\"horizontal\",\"progressValue\":96,\"progressMax\":100,\"barBackground\":\"#0B1728\",\"progressColor\":\"#FBBF24\",\"gradientFill\":true,\"gradientStart\":\"#FBBF24\",\"gradientEnd\":\"#F97316\",\"paramKey\":\"pingBar\"}]}",
+        "updatedAt": 1771434031000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-voice-activity",
+    "title": "Voice Channel Activity Heatmap",
+    "description": "Format 800x450 avec compteur de 142h en salon vocal et jauge circulaire améthyste.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Voice",
+      "Activity",
+      "Hours",
+      "Stats"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-voice-activity-1",
+        "name": "Voice Channel Activity Heatmap (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-violet-neon"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#A855F7\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":120,\"text\":\"TEMPS VOCAL DU MOIS\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":165,\"roleName\":\"142 HEURES EN VOCAL\",\"roleColor\":\"#A855F7\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"},{\"type\":\"i-text\",\"left\":220,\"top\":215,\"text\":\"Rang #1 du serveur en salons vocaux 🎙️\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#E9D5FF\",\"paramKey\":\"rankText\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":250,\"width\":380,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":71,\"progressMax\":100,\"barBackground\":\"#1C0B30\",\"progressColor\":\"#A855F7\",\"gradientFill\":true,\"gradientStart\":\"#A855F7\",\"gradientEnd\":\"#EC4899\",\"paramKey\":\"voiceBar\"},{\"type\":\"progress-bar\",\"left\":635,\"top\":165,\"width\":110,\"height\":110,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":71,\"progressMax\":100,\"barBackground\":\"#1C0B30\",\"progressColor\":\"#A855F7\",\"gradientFill\":true,\"gradientStart\":\"#A855F7\",\"gradientEnd\":\"#EC4899\",\"showPercentageText\":true,\"paramKey\":\"voiceCircle\"}]}",
+        "updatedAt": 1771434032000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-crypto-tracker",
+    "title": "Crypto Economy Market Balance",
+    "description": "Format 750x400 fiche d'économie de serveur avec solde Discoins et jauge de rendement.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Economy",
+      "Crypto",
+      "Gold",
+      "Money"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-crypto-tracker-1",
+        "name": "Crypto Economy Market Balance (750x400)",
+        "width": 750,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "obsidian-gold"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":100,\"avatarRadius\":60,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#EAB308\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":190,\"top\":95,\"text\":\"PORTEFEUILLE ÉCONOMIE\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":190,\"top\":140,\"roleName\":\"SOLDE : 458,200 DISCOINS 🪙\",\"roleColor\":\"#EAB308\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"balanceBadge\"},{\"type\":\"i-text\",\"left\":190,\"top\":190,\"text\":\"Rendement journalier : +8.4%\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#FEF08A\",\"paramKey\":\"yield\"},{\"type\":\"progress-bar\",\"left\":190,\"top\":225,\"width\":500,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":84,\"progressMax\":100,\"barBackground\":\"#18181B\",\"progressColor\":\"#EAB308\",\"gradientFill\":true,\"gradientStart\":\"#EAB308\",\"gradientEnd\":\"#F97316\",\"paramKey\":\"ecoBar\"}]}",
+        "updatedAt": 1771434033000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-moderation-log",
+    "title": "Moderation & Safety Log Card",
+    "description": "Format 800x400 rapport de modération avec indice de confiance 96.5% et jauge de sanctions.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Moderation",
+      "Safety",
+      "Security",
+      "Report"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-moderation-log-1",
+        "name": "Moderation & Safety Log Card (800x400)",
+        "width": 800,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-crimson-flame"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"i-text\",\"left\":50,\"top\":50,\"text\":\"RAPPORT DE MODÉRATION & SÉCURITÉ\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":50,\"top\":100,\"roleName\":\"INDICE DE CONFIANCE : 96.5%\",\"roleColor\":\"#EF4444\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"trustBadge\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":165,\"width\":700,\"height\":24,\"rx\":6,\"ry\":6,\"barStyle\":\"segmented\",\"segments\":10,\"progressValue\":1,\"progressMax\":10,\"barBackground\":\"#20080B\",\"progressColor\":\"#EF4444\",\"gradientFill\":true,\"gradientStart\":\"#EF4444\",\"gradientEnd\":\"#F97316\",\"paramKey\":\"warnSegments\"},{\"type\":\"i-text\",\"left\":50,\"top\":210,\"text\":\"Avertissements actifs : 1/10 • Aucun bannissement récent\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#FCA5A5\",\"paramKey\":\"warnText\"}]}",
+        "updatedAt": 1771434034000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-level-distribution",
+    "title": "Server Level Distribution Matrix",
+    "description": "Format large 1000x450 avec répartition démographique des grades Bronze/Argent/Or.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Matrix",
+      "Analytics",
+      "Demographics",
+      "Stats"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-level-distribution-1",
+        "name": "Server Level Distribution Matrix (1000x450)",
+        "width": 1000,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "hightech-dots"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"i-text\",\"left\":50,\"top\":50,\"text\":\"RÉPARTITION DES GRADES DU SERVEUR\",\"fontSize\":28,\"fontFamily\":\"Space Grotesk\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":50,\"top\":120,\"text\":\"Rang Bronze (Niv. 1-20) : 48%\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#94A3B8\",\"paramKey\":\"bText\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":145,\"width\":900,\"height\":18,\"rx\":9,\"ry\":9,\"barStyle\":\"horizontal\",\"progressValue\":48,\"progressMax\":100,\"barBackground\":\"#151D2A\",\"progressColor\":\"#94A3B8\",\"paramKey\":\"bBar\"},{\"type\":\"i-text\",\"left\":50,\"top\":190,\"text\":\"Rang Argent (Niv. 21-50) : 32%\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#38BDF8\",\"paramKey\":\"sText\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":215,\"width\":900,\"height\":18,\"rx\":9,\"ry\":9,\"barStyle\":\"horizontal\",\"progressValue\":32,\"progressMax\":100,\"barBackground\":\"#151D2A\",\"progressColor\":\"#38BDF8\",\"paramKey\":\"sBar\"},{\"type\":\"i-text\",\"left\":50,\"top\":260,\"text\":\"Rang Or (Niv. 51+) : 20%\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#FACC15\",\"paramKey\":\"gText\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":285,\"width\":900,\"height\":18,\"rx\":9,\"ry\":9,\"barStyle\":\"horizontal\",\"progressValue\":20,\"progressMax\":100,\"barBackground\":\"#151D2A\",\"progressColor\":\"#FACC15\",\"paramKey\":\"gBar\"}]}",
+        "updatedAt": 1771434035000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-uptime-sla",
+    "title": "99.99% Cloud Uptime SLA Monitor",
+    "description": "Format 800x420 avec certificat de disponibilité et jauge verte émeraude 99.99%.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Uptime",
+      "SLA",
+      "Cloud",
+      "Emerald"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-uptime-sla-1",
+        "name": "99.99% Cloud Uptime SLA Monitor (800x420)",
+        "width": 800,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-emerald-pulse"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"i-text\",\"left\":50,\"top\":60,\"text\":\"DISPONIBILITÉ HAUTE PERFORMANCE\",\"fontSize\":26,\"fontFamily\":\"Space Grotesk\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":50,\"top\":110,\"roleName\":\"SLA CERTIFIÉ : 99.99% UPTIME\",\"roleColor\":\"#10B981\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"slaBadge\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":180,\"width\":460,\"height\":26,\"rx\":13,\"ry\":13,\"barStyle\":\"horizontal\",\"progressValue\":99,\"progressMax\":100,\"barBackground\":\"#04281E\",\"progressColor\":\"#10B981\",\"gradientFill\":true,\"gradientStart\":\"#10B981\",\"gradientEnd\":\"#34D399\",\"paramKey\":\"upBar\"},{\"type\":\"progress-bar\",\"left\":560,\"top\":100,\"width\":160,\"height\":160,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":99,\"progressMax\":100,\"barBackground\":\"#04281E\",\"progressColor\":\"#10B981\",\"gradientFill\":true,\"gradientStart\":\"#10B981\",\"gradientEnd\":\"#34D399\",\"showPercentageText\":true,\"paramKey\":\"slaCircle\"}]}",
+        "updatedAt": 1771434036000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-guild-raid",
+    "title": "Guild Raid Performance Stats",
+    "description": "Format 900x500 avec 3 jauges radiales (DPS rouge, Soin vert, Tank bleu).",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Raid",
+      "Gaming",
+      "DPS",
+      "Guild"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-guild-raid-1",
+        "name": "Guild Raid Performance Stats (900x500)",
+        "width": 900,
+        "height": 500,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-golden-champagne"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"i-text\",\"left\":50,\"top\":50,\"text\":\"PERFORMANCE DE RAID DE GUILDE\",\"fontSize\":28,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"progress-bar\",\"left\":80,\"top\":150,\"width\":150,\"height\":150,\"rx\":14,\"ry\":14,\"barStyle\":\"radial\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#241908\",\"progressColor\":\"#EF4444\",\"showPercentageText\":true,\"paramKey\":\"dps\"},{\"type\":\"i-text\",\"left\":155,\"top\":320,\"originX\":\"center\",\"text\":\"DPS (88%)\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#EF4444\",\"paramKey\":\"dpsL\"},{\"type\":\"progress-bar\",\"left\":375,\"top\":150,\"width\":150,\"height\":150,\"rx\":14,\"ry\":14,\"barStyle\":\"radial\",\"progressValue\":92,\"progressMax\":100,\"barBackground\":\"#241908\",\"progressColor\":\"#10B981\",\"showPercentageText\":true,\"paramKey\":\"heal\"},{\"type\":\"i-text\",\"left\":450,\"top\":320,\"originX\":\"center\",\"text\":\"Heal (92%)\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#10B981\",\"paramKey\":\"healL\"},{\"type\":\"progress-bar\",\"left\":670,\"top\":150,\"width\":150,\"height\":150,\"rx\":14,\"ry\":14,\"barStyle\":\"radial\",\"progressValue\":75,\"progressMax\":100,\"barBackground\":\"#241908\",\"progressColor\":\"#38BDF8\",\"showPercentageText\":true,\"paramKey\":\"tank\"},{\"type\":\"i-text\",\"left\":745,\"top\":320,\"originX\":\"center\",\"text\":\"Tank (75%)\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#38BDF8\",\"paramKey\":\"tankL\"}]}",
+        "updatedAt": 1771434037000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-music-player",
+    "title": "Discord Music Bot Track Stats",
+    "description": "Format lecteur 800x420 avec titre en cours et barre de lecture fluide.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Music",
+      "Player",
+      "Track",
+      "Song"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-music-player-1",
+        "name": "Discord Music Bot Track Stats (800x420)",
+        "width": 800,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-sunset-amber"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":110,\"avatarRadius\":60,\"status\":\"none\",\"displayMode\":\"avatar-only\",\"borderColor\":\"#F97316\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"musicThumb\"},{\"type\":\"i-text\",\"left\":200,\"top\":110,\"text\":\"Midnight Synthwave Journey\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"trackName\"},{\"type\":\"i-text\",\"left\":200,\"top\":155,\"text\":\"Artiste : CyberWave • Demandé par {username}\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#FED7AA\",\"paramKey\":\"artist\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":210,\"width\":540,\"height\":16,\"rx\":8,\"ry\":8,\"barStyle\":\"horizontal\",\"progressValue\":62,\"progressMax\":100,\"barBackground\":\"#280E18\",\"progressColor\":\"#F97316\",\"gradientFill\":true,\"gradientStart\":\"#F97316\",\"gradientEnd\":\"#DB2777\",\"paramKey\":\"trackProgress\"},{\"type\":\"i-text\",\"left\":200,\"top\":240,\"text\":\"02:45 / 04:28 🔊 Volume 80%\",\"fontSize\":14,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#FBCFE8\",\"paramKey\":\"time\"}]}",
+        "updatedAt": 1771434038000
+      }
+    ]
+  },
+  {
+    "id": "tpl-stats-eco-energy",
+    "title": "Green Eco-Server Energy Index",
+    "description": "Format 750x400 indice écologique et efficacité verte avec jauge circulaire thé vert.",
+    "author": "Ifanoxy",
+    "category": "stats",
+    "tags": [
+      "Eco",
+      "Green",
+      "Energy",
+      "Stats"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-stats-eco-energy-1",
+        "name": "Green Eco-Server Energy Index (750x400)",
+        "width": 750,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "zen-gradient"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"i-text\",\"left\":50,\"top\":60,\"text\":\"INDICE ÉCOLOGIQUE & IMPACT VERT\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":50,\"top\":110,\"roleName\":\"CERTIFIÉ ÉCO-RESPONSABLE A+\",\"roleColor\":\"#34D399\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"ecoBadge\"},{\"type\":\"progress-bar\",\"left\":50,\"top\":175,\"width\":440,\"height\":26,\"rx\":13,\"ry\":13,\"barStyle\":\"horizontal\",\"progressValue\":94,\"progressMax\":100,\"barBackground\":\"#041F16\",\"progressColor\":\"#34D399\",\"gradientFill\":true,\"gradientStart\":\"#059669\",\"gradientEnd\":\"#34D399\",\"paramKey\":\"ecoBar\"},{\"type\":\"progress-bar\",\"left\":530,\"top\":100,\"width\":150,\"height\":150,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":94,\"progressMax\":100,\"barBackground\":\"#041F16\",\"progressColor\":\"#34D399\",\"gradientFill\":true,\"gradientStart\":\"#059669\",\"gradientEnd\":\"#34D399\",\"showPercentageText\":true,\"paramKey\":\"ecoCircle\"}]}",
+        "updatedAt": 1771434039000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-fantasy-rpg",
+    "title": "Fantasy RPG Hero Character Sheet",
+    "description": "Format héroïque 850x480 avec avatar de classe, barre de vie HP, barre de mana et endurance radiale.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "RPG",
+      "Gaming",
+      "HealthBar",
+      "Mana",
+      "Fantasy"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-fantasy-rpg-1",
+        "name": "Fantasy RPG Hero Character Sheet (850x480)",
+        "width": 850,
+        "height": 480,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "magma-core"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":90,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#DC2626\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"heroAvatar\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":210,\"top\":90,\"text\":\"Paladin Sanctifié - Niv. 75\",\"fontSize\":30,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"900\",\"fill\":\"#FEF08A\",\"paramKey\":\"heroTitle\"},{\"type\":\"discord-role-badge\",\"left\":210,\"top\":135,\"roleName\":\"Guilde : Gardiens de l'Aube\",\"roleColor\":\"#F97316\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"guildBadge\"},{\"type\":\"i-text\",\"left\":210,\"top\":180,\"text\":\"Points de Vie (HP) : 4,250 / 5,000\",\"fontSize\":14,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#FCA5A5\",\"paramKey\":\"hpLabel\"},{\"type\":\"progress-bar\",\"left\":210,\"top\":205,\"width\":430,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":85,\"progressMax\":100,\"barBackground\":\"#2B0C0C\",\"progressColor\":\"#DC2626\",\"gradientFill\":true,\"gradientStart\":\"#DC2626\",\"gradientEnd\":\"#F97316\",\"paramKey\":\"hpBar\"},{\"type\":\"i-text\",\"left\":210,\"top\":240,\"text\":\"Mana : 1,800 / 3,000\",\"fontSize\":14,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#93C5FD\",\"paramKey\":\"manaLabel\"},{\"type\":\"progress-bar\",\"left\":210,\"top\":265,\"width\":430,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":60,\"progressMax\":100,\"barBackground\":\"#0C162B\",\"progressColor\":\"#3B82F6\",\"gradientFill\":true,\"gradientStart\":\"#3B82F6\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"manaBar\"},{\"type\":\"progress-bar\",\"left\":680,\"top\":135,\"width\":130,\"height\":130,\"rx\":14,\"ry\":14,\"barStyle\":\"radial\",\"progressValue\":92,\"progressMax\":100,\"barBackground\":\"#2B0C0C\",\"progressColor\":\"#FBBF24\",\"gradientFill\":true,\"gradientStart\":\"#FBBF24\",\"gradientEnd\":\"#F97316\",\"showPercentageText\":true,\"paramKey\":\"staminaGauge\"},{\"type\":\"i-text\",\"left\":745,\"top\":280,\"originX\":\"center\",\"text\":\"Endurance\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#FBBF24\",\"paramKey\":\"staminaLabel\"}]}",
+        "updatedAt": 1771434040000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-retrowave-arcade",
+    "title": "Synthwave 80s Retro Arcade Leaderboard",
+    "description": "Format arcade 934x320 avec horizon filaire 3D rétro et jauge segmentée fluo 12 blocs.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "Synthwave",
+      "Arcade",
+      "Leaderboard",
+      "Retro"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-retrowave-arcade-1",
+        "name": "Synthwave 80s Retro Arcade Leaderboard (934x320)",
+        "width": 934,
+        "height": 320,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "retrowave-wireframe"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":45,\"top\":50,\"avatarRadius\":60,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FF2A85\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"userAvatar\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":195,\"top\":45,\"text\":\"ARCADE TOP 1 WORLD\",\"fontSize\":30,\"fontFamily\":\"Russo One\",\"fontWeight\":\"900\",\"fill\":\"#FEE75C\",\"paramKey\":\"titleHeader\"},{\"type\":\"i-text\",\"left\":195,\"top\":90,\"text\":\"Joueur : {username}\",\"fontSize\":22,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#00F0FF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":195,\"top\":130,\"roleName\":\"SCORE : 1,480,900 PTS\",\"roleColor\":\"#FF2A85\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"scoreBadge\"},{\"type\":\"progress-bar\",\"left\":195,\"top\":180,\"width\":680,\"height\":28,\"rx\":6,\"ry\":6,\"barStyle\":\"segmented\",\"segments\":12,\"progressValue\":10,\"progressMax\":12,\"barBackground\":\"#1F0328\",\"progressColor\":\"#FF2A85\",\"gradientFill\":true,\"gradientStart\":\"#FF2A85\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"arcadeSegments\"}]}",
+        "updatedAt": 1771434041000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-fps-tactical",
+    "title": "Tactical FPS Rank & K/D Card",
+    "description": "Format 850x400 joueur FPS compétitif avec ratio K/D de 3.42 et taux de victoires 78%.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "FPS",
+      "Tactical",
+      "Shooter",
+      "Competitive"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-fps-tactical-1",
+        "name": "Tactical FPS Rank & K/D Card (850x400)",
+        "width": 850,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "techno-stripes"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":95,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#EAB308\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":90,\"text\":\"COMMANDANT TACTIQUE\",\"fontSize\":28,\"fontFamily\":\"Space Grotesk\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":135,\"roleName\":\"K/D RATIO : 3.42 • 78% WINS\",\"roleColor\":\"#EAB308\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"kdBadge\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":200,\"width\":580,\"height\":22,\"rx\":6,\"ry\":6,\"barStyle\":\"horizontal\",\"progressValue\":78,\"progressMax\":100,\"barBackground\":\"#1F1F2E\",\"progressColor\":\"#EAB308\",\"paramKey\":\"winBar\"}]}",
+        "updatedAt": 1771434042000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-cyberpunk-merc",
+    "title": "Cyberpunk Netrunner Character",
+    "description": "Format 800x450 mercenaire cybernétique avec jauge d'implants cyberware et prime.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "Cyberpunk",
+      "Netrunner",
+      "RPG",
+      "Gaming"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-cyberpunk-merc-1",
+        "name": "Cyberpunk Netrunner Character (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "isometric-hex"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#57F287\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":120,\"text\":\"V_Netrunner\",\"fontSize\":32,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":170,\"roleName\":\"PRIME : 250,000 EDDIES\",\"roleColor\":\"#57F287\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"bounty\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":235,\"width\":500,\"height\":24,\"rx\":6,\"ry\":6,\"barStyle\":\"horizontal\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#0F2618\",\"progressColor\":\"#57F287\",\"gradientFill\":true,\"gradientStart\":\"#57F287\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"cyberBar\"}]}",
+        "updatedAt": 1771434043000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-moba-champion",
+    "title": "MOBA Challenger Master Card",
+    "description": "Format 800x450 rang Challenger League of Legends/MOBA avec winrate 68%.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "MOBA",
+      "Challenger",
+      "Rank",
+      "Gaming"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-moba-champion-1",
+        "name": "MOBA Challenger Master Card (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-cyber-blurple"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#5865F2\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":120,\"text\":\"FakerFan#EUW\",\"fontSize\":30,\"fontFamily\":\"Inter\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":170,\"roleName\":\"RANG CHALLENGER 850 LP\",\"roleColor\":\"#5865F2\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"rank\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":235,\"width\":380,\"height\":24,\"rx\":12,\"ry\":12,\"barStyle\":\"horizontal\",\"progressValue\":68,\"progressMax\":100,\"barBackground\":\"#1A1C23\",\"progressColor\":\"#5865F2\",\"gradientFill\":true,\"gradientStart\":\"#5865F2\",\"gradientEnd\":\"#57F287\",\"paramKey\":\"winBar\"},{\"type\":\"progress-bar\",\"left\":635,\"top\":165,\"width\":110,\"height\":110,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":68,\"progressMax\":100,\"barBackground\":\"#1A1C23\",\"progressColor\":\"#57F287\",\"showPercentageText\":true,\"paramKey\":\"winCircle\"}]}",
+        "updatedAt": 1771434044000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-battle-royale",
+    "title": "Battle Royale Victory Royale",
+    "description": "Format 800x420 Top 1 Battle Royale avec décompte d'éliminations.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "BattleRoyale",
+      "Top1",
+      "Victory",
+      "Gaming"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-battle-royale-1",
+        "name": "Battle Royale Victory Royale (800x420)",
+        "width": 800,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "supernova"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":100,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FBBF24\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":95,\"text\":\"VICTOIRE ROYALE #1\",\"fontSize\":32,\"fontFamily\":\"Russo One\",\"fontWeight\":\"900\",\"fill\":\"#FBBF24\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":145,\"roleName\":\"18 ÉLIMINATIONS EN SOLO\",\"roleColor\":\"#FBBF24\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"kills\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":210,\"width\":540,\"height\":26,\"rx\":6,\"ry\":6,\"barStyle\":\"segmented\",\"segments\":18,\"progressValue\":18,\"progressMax\":18,\"barBackground\":\"#1C0D02\",\"progressColor\":\"#FBBF24\",\"paramKey\":\"killSegments\"}]}",
+        "updatedAt": 1771434045000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-dungeon-crawler",
+    "title": "Dungeon Crawler Boss Slayer",
+    "description": "Format 750x450 dans une caverne de cristaux d'améthyste et loot légendaire.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "Dungeon",
+      "Amethyst",
+      "RPG",
+      "Crystal"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-dungeon-crawler-1",
+        "name": "Dungeon Crawler Boss Slayer (750x450)",
+        "width": 750,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "crystal-cave"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":115,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#A855F7\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":110,\"text\":\"Tueur de Boss - Étage 100\",\"fontSize\":28,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"900\",\"fill\":\"#E9D5FF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":160,\"roleName\":\"LOOT LÉGENDAIRE OBTENU 💎\",\"roleColor\":\"#A855F7\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"loot\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":225,\"width\":480,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":100,\"progressMax\":100,\"barBackground\":\"#260B3E\",\"progressColor\":\"#A855F7\",\"gradientFill\":true,\"gradientStart\":\"#A855F7\",\"gradientEnd\":\"#EC4899\",\"paramKey\":\"bossBar\"}]}",
+        "updatedAt": 1771434046000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-space-pilot",
+    "title": "Hyper-Drive Starship Pilot Card",
+    "description": "Format 850x400 pilote spatial avec propulsion warp facteur 9.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "Space",
+      "Pilot",
+      "SciFi",
+      "HyperSpeed"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-space-pilot-1",
+        "name": "Hyper-Drive Starship Pilot Card (850x400)",
+        "width": 850,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "hyper-speed"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":95,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#3B82F6\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":90,\"text\":\"PILOTE HYPER-ESPACE\",\"fontSize\":28,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":140,\"roleName\":\"PROPULSION WARP : FACTEUR 9\",\"roleColor\":\"#3B82F6\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"warp\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":205,\"width\":580,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":95,\"progressMax\":100,\"barBackground\":\"#0B1728\",\"progressColor\":\"#3B82F6\",\"gradientFill\":true,\"gradientStart\":\"#3B82F6\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"warpBar\"}]}",
+        "updatedAt": 1771434047000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-electric-storm",
+    "title": "Thunder Shaman Elemental Sheet",
+    "description": "Format 800x420 invocateur d'éclairs avec surtension 50 000 Volts.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "Storm",
+      "Electric",
+      "Thunder",
+      "Mage"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-electric-storm-1",
+        "name": "Thunder Shaman Elemental Sheet (800x420)",
+        "width": 800,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "electric-storm"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":105,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#60A5FA\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":100,\"text\":\"Chaman de la Foudre\",\"fontSize\":30,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"900\",\"fill\":\"#93C5FD\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":150,\"roleName\":\"SURTENSION : 50,000 VOLTS ⚡\",\"roleColor\":\"#3B82F6\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"volt\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":215,\"width\":530,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#0F1F38\",\"progressColor\":\"#60A5FA\",\"gradientFill\":true,\"gradientStart\":\"#60A5FA\",\"gradientEnd\":\"#93C5FD\",\"paramKey\":\"voltBar\"}]}",
+        "updatedAt": 1771434048000
+      }
+    ]
+  },
+  {
+    "id": "tpl-game-toxic-survivor",
+    "title": "Biohazard Wasteland Survivor",
+    "description": "Format 750x380 survivant post-apocalyptique avec compteur de radiation.",
+    "author": "Ifanoxy",
+    "category": "gaming",
+    "tags": [
+      "Wasteland",
+      "Survival",
+      "PostApo",
+      "Gaming"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-game-toxic-survivor-1",
+        "name": "Biohazard Wasteland Survivor (750x380)",
+        "width": 750,
+        "height": 380,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "toxic-waste"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":85,\"avatarRadius\":60,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#22C55E\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":190,\"top\":80,\"text\":\"SURVIVANT SECTEUR 7\",\"fontSize\":26,\"fontFamily\":\"Space Grotesk\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":190,\"top\":130,\"roleName\":\"RADIATION : NIVEAU SÛR\",\"roleColor\":\"#22C55E\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"rad\"},{\"type\":\"progress-bar\",\"left\":190,\"top\":190,\"width\":490,\"height\":24,\"rx\":6,\"ry\":6,\"barStyle\":\"segmented\",\"segments\":10,\"progressValue\":8,\"progressMax\":10,\"barBackground\":\"#04281E\",\"progressColor\":\"#22C55E\",\"paramKey\":\"radSegments\"}]}",
+        "updatedAt": 1771434049000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-sakura-night",
+    "title": "Sakura Twilight Aesthetic Anime Card",
+    "description": "Format 800x450 esthétique japonaise douce sur fond de cerisiers avec kanjis et dégradé lilas.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Anime",
+      "Sakura",
+      "Japan",
+      "Pastel",
+      "Aesthetic"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-sakura-night-1",
+        "name": "Sakura Twilight Aesthetic Anime Card (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "sakura-night"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"idle\",\"displayMode\":\"both\",\"borderColor\":\"#F472B6\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":110,\"text\":\"桜の夜 • Nuit Sakura\",\"fontSize\":16,\"fontFamily\":\"Inter\",\"fontWeight\":\"600\",\"fill\":\"#F472B6\",\"paramKey\":\"kanjiTitle\"},{\"type\":\"i-text\",\"left\":220,\"top\":140,\"text\":\"Yuki-Chan ~ 夢\",\"fontSize\":30,\"fontFamily\":\"Fredoka\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":190,\"roleName\":\"Otaku Club Member\",\"roleColor\":\"#F472B6\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"i-text\",\"left\":220,\"top\":230,\"text\":\"Sous les cerisiers en fleurs sous la lune...\",\"fontSize\":14,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fontStyle\":\"italic\",\"fill\":\"#E2E8F0\",\"paramKey\":\"quoteText\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":265,\"width\":480,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":82,\"progressMax\":100,\"barBackground\":\"#280838\",\"progressColor\":\"#F472B6\",\"gradientFill\":true,\"gradientStart\":\"#F472B6\",\"gradientEnd\":\"#C084FC\",\"paramKey\":\"sakuraLevel\"}]}",
+        "updatedAt": 1771434050000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-vaporwave-pastel",
+    "title": "Vaporwave Pastel Dreams Anime",
+    "description": "Format 750x420 pastel violette et lilas avec typographie douce et badge Manga Lover.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Vaporwave",
+      "Pastel",
+      "Dreams",
+      "Anime"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-vaporwave-pastel-1",
+        "name": "Vaporwave Pastel Dreams Anime (750x420)",
+        "width": 750,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "vaporwave-pastel"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":105,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FFB6C1\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":105,\"text\":\"AestheticDreams ✨\",\"fontSize\":28,\"fontFamily\":\"Fredoka\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":155,\"roleName\":\"MANGA & CHILL\",\"roleColor\":\"#FFB6C1\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":215,\"width\":480,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":75,\"progressMax\":100,\"barBackground\":\"#3D1B48\",\"progressColor\":\"#FFB6C1\",\"gradientFill\":true,\"gradientStart\":\"#FFB6C1\",\"gradientEnd\":\"#93C5FD\",\"paramKey\":\"xpBar\"}]}",
+        "updatedAt": 1771434051000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-cyber-neotokyo",
+    "title": "Neo-Tokyo 2099 Cyber Anime",
+    "description": "Format 850x420 futuriste à Tokyo avec néons bleus et kanjis cybernétiques.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "NeoTokyo",
+      "Cyber",
+      "Anime",
+      "Japan"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-cyber-neotokyo-1",
+        "name": "Neo-Tokyo 2099 Cyber Anime (850x420)",
+        "width": 850,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-cyan-aura"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":105,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#00F0FF\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":90,\"text\":\"ネオ東京 • NEO TOKYO 2099\",\"fontSize\":16,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"700\",\"fill\":\"#00F0FF\",\"paramKey\":\"kanji\"},{\"type\":\"i-text\",\"left\":200,\"top\":120,\"text\":\"Kenji_Ghost\",\"fontSize\":32,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":170,\"roleName\":\"CYBER POLICE UNIT\",\"roleColor\":\"#00F0FF\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":225,\"width\":550,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":90,\"progressMax\":100,\"barBackground\":\"#091A28\",\"progressColor\":\"#00F0FF\",\"gradientFill\":true,\"gradientStart\":\"#00F0FF\",\"gradientEnd\":\"#38BDF8\",\"paramKey\":\"cyberBar\"}]}",
+        "updatedAt": 1771434052000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-shonen-fire",
+    "title": "Shonen Dragon Flame Power Card",
+    "description": "Format 800x420 anime de combat avec niveau de puissance supérieur à 9000.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Shonen",
+      "Fire",
+      "Dragon",
+      "Power"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-shonen-fire-1",
+        "name": "Shonen Dragon Flame Power Card (800x420)",
+        "width": 800,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "solar-flare"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":105,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#FEF08A\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":100,\"text\":\"Goku_UltraInstinct\",\"fontSize\":30,\"fontFamily\":\"Russo One\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":150,\"roleName\":\"POWER LEVEL : OVER 9000 🔥\",\"roleColor\":\"#EA580C\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"power\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":215,\"width\":530,\"height\":24,\"rx\":12,\"ry\":12,\"barStyle\":\"horizontal\",\"progressValue\":98,\"progressMax\":100,\"barBackground\":\"#3D0A0A\",\"progressColor\":\"#EA580C\",\"gradientFill\":true,\"gradientStart\":\"#FEF08A\",\"gradientEnd\":\"#EA580C\",\"paramKey\":\"powerBar\"}]}",
+        "updatedAt": 1771434053000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-magic-circle",
+    "title": "Magical Girl Starlight Card",
+    "description": "Format 750x450 fille magique avec étoile et rubans pastel roses.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "MagicalGirl",
+      "Pastel",
+      "Star",
+      "Anime"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-magic-circle-1",
+        "name": "Magical Girl Starlight Card (750x450)",
+        "width": 750,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "cotton-candy"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":120,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#F472B6\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":115,\"text\":\"Starlight Princess ⭐\",\"fontSize\":28,\"fontFamily\":\"Fredoka\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":165,\"roleName\":\"PUISSANCE DU COEUR\",\"roleColor\":\"#F472B6\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":230,\"width\":480,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":86,\"progressMax\":100,\"barBackground\":\"#301648\",\"progressColor\":\"#F472B6\",\"gradientFill\":true,\"gradientStart\":\"#F472B6\",\"gradientEnd\":\"#38BDF8\",\"paramKey\":\"starBar\"}]}",
+        "updatedAt": 1771434054000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-gothic-lolita",
+    "title": "Gothic Moonlight Dark Anime",
+    "description": "Format portrait 650x550 gothique victorien romantique sombre avec lune rouge sang.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Gothic",
+      "Moonlight",
+      "DarkAnime",
+      "Red"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-gothic-lolita-1",
+        "name": "Gothic Moonlight Dark Anime (650x550)",
+        "width": 650,
+        "height": 550,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "blood-moon"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":250,\"top\":60,\"avatarRadius\":65,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#EF4444\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":325,\"top\":220,\"originX\":\"center\",\"text\":\"Rose_Noire\",\"fontSize\":32,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":325,\"top\":275,\"originX\":\"center\",\"roleName\":\"ORDRE GOTHIQUE\",\"roleColor\":\"#EF4444\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"},{\"type\":\"i-text\",\"left\":325,\"top\":340,\"originX\":\"center\",\"text\":\"« Dans l'ombre de la lune pourpre... » 🥀\",\"fontSize\":15,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"400\",\"fontStyle\":\"italic\",\"fill\":\"#FCA5A5\",\"paramKey\":\"quote\"}]}",
+        "updatedAt": 1771434055000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-lofi-chill",
+    "title": "Lofi Midnight Study Beats Card",
+    "description": "Format 750x420 ambiance lofi hip-hop apaisante pour étudier sur Discord.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Lofi",
+      "Chill",
+      "Beats",
+      "Study"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-lofi-chill-1",
+        "name": "Lofi Midnight Study Beats Card (750x420)",
+        "width": 750,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-violet-neon"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":105,\"avatarRadius\":65,\"status\":\"idle\",\"displayMode\":\"both\",\"borderColor\":\"#A855F7\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":100,\"text\":\"Lofi Study Session 🎧\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":150,\"roleName\":\"CHILL & STUDY 24/7\",\"roleColor\":\"#A855F7\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"},{\"type\":\"i-text\",\"left\":200,\"top\":200,\"text\":\"En écoute : beats relaxants pour coder ☕📖\",\"fontSize\":15,\"fontFamily\":\"Inter\",\"fontWeight\":\"400\",\"fill\":\"#E9D5FF\",\"paramKey\":\"desc\"}]}",
+        "updatedAt": 1771434056000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-mecha-pilot",
+    "title": "EVA Unit Mecha Pilot License",
+    "description": "Format 900x400 licence de pilote de mecha géant NERV avec taux de synchro 98.2%.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Mecha",
+      "EVA",
+      "SciFi",
+      "Pilot"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-mecha-pilot-1",
+        "name": "EVA Unit Mecha Pilot License (900x400)",
+        "width": 900,
+        "height": 400,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "blueprint-grid"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":100,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#FFFFFF\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":90,\"text\":\"EVA UNIT-01 PILOT LICENSE\",\"fontSize\":24,\"fontFamily\":\"Orbitron\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"i-text\",\"left\":200,\"top\":130,\"text\":\"Pilote : {username}\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#93C5FD\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":180,\"roleName\":\"SYNC RATE : 98.2% [OPTIMAL]\",\"roleColor\":\"#3B82F6\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"sync\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":235,\"width\":620,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":98,\"progressMax\":100,\"barBackground\":\"#0B2240\",\"progressColor\":\"#3B82F6\",\"gradientFill\":true,\"gradientStart\":\"#3B82F6\",\"gradientEnd\":\"#60A5FA\",\"paramKey\":\"syncBar\"}]}",
+        "updatedAt": 1771434057000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-chibi-sweet",
+    "title": "Sweet Strawberry Pastel Chibi",
+    "description": "Format 750x420 chaleureux pastel aux fraises avec badge kawaii et jauge sucrée.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Chibi",
+      "Kawaii",
+      "Sweet",
+      "Pastel"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-chibi-sweet-1",
+        "name": "Sweet Strawberry Pastel Chibi (750x420)",
+        "width": 750,
+        "height": 420,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "glass-sunset-amber"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":105,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#F97316\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":200,\"top\":100,\"text\":\"Strawberry_Chibi 🍓\",\"fontSize\":28,\"fontFamily\":\"Fredoka\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":200,\"top\":150,\"roleName\":\"CLUB DOUCEUR & BONBONS\",\"roleColor\":\"#F97316\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"badge\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":215,\"width\":480,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":88,\"progressMax\":100,\"barBackground\":\"#260B18\",\"progressColor\":\"#F97316\",\"gradientFill\":true,\"gradientStart\":\"#F97316\",\"gradientEnd\":\"#DB2777\",\"paramKey\":\"sugarBar\"}]}",
+        "updatedAt": 1771434058000
+      }
+    ]
+  },
+  {
+    "id": "tpl-anime-isekai-adventurer",
+    "title": "Isekai Guild Adventurer Card",
+    "description": "Format 800x450 aventurier de guilde Isekai de rang S avec affinité magique.",
+    "author": "Ifanoxy",
+    "category": "anime",
+    "tags": [
+      "Isekai",
+      "Adventurer",
+      "Guild",
+      "Anime"
+    ],
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-tpl-anime-isekai-adventurer-1",
+        "name": "Isekai Guild Adventurer Card (800x450)",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "crystal-cave"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#A855F7\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":220,\"top\":110,\"text\":\"CARTE D'AVENTURIER OFFICIELLE\",\"fontSize\":16,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"700\",\"fill\":\"#C084FC\",\"paramKey\":\"cardHeader\"},{\"type\":\"i-text\",\"left\":220,\"top\":140,\"text\":\"{username} ~ Rang S\",\"fontSize\":30,\"fontFamily\":\"Cinzel\",\"fontWeight\":\"900\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":220,\"top\":190,\"roleName\":\"GUILDE ROYALE : RANG S\",\"roleColor\":\"#A855F7\",\"fontSize\":14,\"rx\":6,\"ry\":6,\"paramKey\":\"guild\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":245,\"width\":480,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":95,\"progressMax\":100,\"barBackground\":\"#260B3E\",\"progressColor\":\"#A855F7\",\"gradientFill\":true,\"gradientStart\":\"#A855F7\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"magicBar\"}]}",
+        "updatedAt": 1771434059000
+      }
+    ]
+  }
+]

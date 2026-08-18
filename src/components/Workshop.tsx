@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store/useStore';
 import { localApi } from '../api/localStorageApi';
+import { CanvasThumbnailPreview } from './CanvasThumbnailPreview';
 import type { WorkshopItem } from '../types';
 import { 
   Sparkles, Bookmark, Download, Search, 
   ArrowLeft, ArrowRight, GitPullRequest, 
-  RefreshCw, Copy, Check, ExternalLink, GitBranch
+  RefreshCw, Copy, Check, ExternalLink, GitBranch, Images
 } from 'lucide-react';
 
 export const Workshop: React.FC = () => {
@@ -22,7 +23,7 @@ export const Workshop: React.FC = () => {
   // GitHub PR Submission Modal State
   const [showSubmitModal, setShowSubmitModal] = useState(false);
   const [selectedProjectId, setSelectedProjectId] = useState<string>(projects[0]?.id || '');
-  const [authorName, setAuthorName] = useState('MonPseudoDiscord');
+  const [authorName, setAuthorName] = useState('Ifanoxy');
   const [selectedCategory, setSelectedCategory] = useState('rank');
   const [copiedPrJson, setCopiedPrJson] = useState(false);
 
@@ -333,6 +334,7 @@ export const Workshop: React.FC = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '24px' }}>
           {filteredItems.map(item => {
             const imageCount = item.projectData?.images?.length || 1;
+            const firstImage = item.projectData?.images?.[0];
             const authorDisplayName = typeof item.author === 'object' ? item.author.name : item.author;
 
             return (
@@ -349,17 +351,20 @@ export const Workshop: React.FC = () => {
                   position: 'relative'
                 }}
               >
-                {/* Card Cover Image Preview */}
+                {/* Card Live Canvas Preview */}
                 <div style={{ width: '100%', height: '170px', borderRadius: '10px', overflow: 'hidden', position: 'relative', marginBottom: '16px', background: '#1A1C23' }}>
-                  <img
-                    src={item.coverImage}
-                    alt={item.title}
-                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  <CanvasThumbnailPreview
+                    width={firstImage?.width || 800}
+                    height={firstImage?.height || 450}
+                    bgConfig={firstImage?.bgConfig}
+                    canvasState={firstImage?.canvasState}
                   />
                   
-                  {/* Image Count Pill */}
-                  <div style={{ position: 'absolute', bottom: '10px', left: '10px', background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(6px)', padding: '4px 8px', borderRadius: '6px', fontSize: '11px', fontWeight: 600, color: '#fff' }}>
-                    {imageCount} image{imageCount > 1 ? 's' : ''}
+                  {/* Dimensions & Image Count Pill */}
+                  <div style={{ position: 'absolute', bottom: '10px', left: '10px', background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(6px)', padding: '4px 8px', borderRadius: '6px', fontSize: '11px', fontWeight: 600, color: '#fff', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <span style={{ color: '#5865F2' }}>{firstImage?.width || 800}×{firstImage?.height || 450}</span>
+                    <span>•</span>
+                    <span><Images size={11} style={{ display: 'inline', verticalAlign: 'middle' }} /> {imageCount} img</span>
                   </div>
 
                   {/* Favorite Action */}

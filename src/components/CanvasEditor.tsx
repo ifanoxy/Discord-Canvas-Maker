@@ -9,7 +9,7 @@ import {
   Type, Users, Hash, Percent, Plus, 
   FileArchive, Settings, Code, Smile, Copy, Check,
   ShieldCheck, Layers, ArrowLeft, Grid, Edit3, Image as ImageIcon,
-  Trash2, User
+  Trash2, User, Upload
 } from 'lucide-react';
 import { CustomColorPicker } from './CustomColorPicker';
 import { EmojiSelector } from './EmojiSelector';
@@ -17,7 +17,7 @@ import '../utils/fabricExtensions';
 import { generateNodeCanvasCode } from '../utils/exportCode';
 import { exportProjectToZip } from '../utils/exportZip';
 import { initAligningGuidelines } from '../utils/snapping';
-import { AVAILABLE_FONTS, ensureGoogleFontsLoaded } from '../utils/fonts';
+import { AVAILABLE_FONTS, ensureGoogleFontsLoaded, loadCustomFontsFromStorage, importCustomFontFile, type FontOption } from '../utils/fonts';
 import { PRESET_BACKGROUNDS, renderBackgroundToContext, type BackgroundConfig } from '../utils/presets';
 
 export const CanvasEditor: React.FC = () => {
@@ -60,6 +60,10 @@ export const CanvasEditor: React.FC = () => {
   const [isResizing, setIsResizing] = useState(false);
   const resizeStartPos = useRef({ x: 0, y: 0, w: 800, h: 450 });
 
+  // Custom Font State
+  const [fontList, setFontList] = useState<FontOption[]>(AVAILABLE_FONTS);
+  const fontFileInputRef = useRef<HTMLInputElement>(null);
+
   // Drawing State
   const isDrawing = useRef(false);
   const drawingObj = useRef<fabric.Object | null>(null);
@@ -71,10 +75,61 @@ export const CanvasEditor: React.FC = () => {
 
   useEffect(() => {
     ensureGoogleFontsLoaded();
+    loadCustomFontsFromStorage().then(fonts => setFontList([...fonts]));
     if (projectId && projectId !== activeProjectId) {
       setActiveProject(projectId);
     }
   }, [projectId]);
+
+  const handleFontFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const files = e.target?.files;
+    if (!files || files.length === 0) return;
+    const file = files[0];
+    if (!file) return;
+
+    try {
+      const newFont = await importCustomFontFile(file);
+      setFontList([...AVAILABLE_FONTS]);
+
+      if (fabricCanvas) {
+        const activeObj = fabricCanvas.getActiveObject();
+        if (activeObj) {
+          if (activeObj.type === 'i-text' || activeObj.type === 'text') {
+            (activeObj as any).set('fontFamily', newFont.family);
+            activeObj.dirty = true;
+            fabricCanvas.requestRenderAll();
+            updateProps(activeObj);
+            persistCanvasState();
+          } else if (activeObj.type === 'discord-role-badge') {
+            (activeObj as any).fontFamily = newFont.family;
+            activeObj.dirty = true;
+            fabricCanvas.requestRenderAll();
+            updateProps(activeObj);
+            persistCanvasState();
+          }
+        }
+      }
+
+      setSelectedObjectProps((prev: any) => ({ ...prev, fontFamily: newFont.family }));
+
+      addToast({
+        type: 'success',
+        title: 'Police importée avec succès !',
+        message: `La police "${newFont.family}" est désormais disponible et appliquée.`
+      });
+    } catch (err: any) {
+      console.error('Erreur import police:', err);
+      addToast({
+        type: 'error',
+        title: 'Erreur import police',
+        message: err?.message || 'Fichier de police non valide.'
+      });
+    } finally {
+      if (e.target) {
+        e.target.value = '';
+      }
+    }
+  };
 
   // Apply Background helper
   const applyCanvasBackground = useCallback((canvas: fabric.Canvas, config: BackgroundConfig, width: number, height: number) => {
@@ -1925,14 +1980,42 @@ export const CanvasEditor: React.FC = () => {
                     style={{ background: '#1E1F22', border: '1px solid var(--panel-border)', color: '#fff', padding: '8px', borderRadius: '6px', fontSize: '13px', resize: 'vertical' }} 
                   />
 
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                    <span style={{ fontSize: '11px', color: '#94A3B8' }}>Police de Caractères</span>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <span style={{ fontSize: '11px', color: '#94A3B8' }}>Police de Caractères</span>
+                      <button
+                        onClick={() => fontFileInputRef.current?.click()}
+                        style={{
+                          background: 'rgba(88,101,242,0.15)',
+                          border: '1px solid rgba(88,101,242,0.3)',
+                          color: '#5865F2',
+                          padding: '3px 8px',
+                          borderRadius: '4px',
+                          fontSize: '10px',
+                          fontWeight: 600,
+                          cursor: 'pointer',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '4px'
+                        }}
+                        title="Importer un fichier de police (.ttf, .otf, .woff)"
+                      >
+                        <Upload size={11} /> Importer Police
+                      </button>
+                      <input
+                        ref={fontFileInputRef}
+                        type="file"
+                        accept=".ttf,.otf,.woff,.woff2"
+                        style={{ display: 'none' }}
+                        onChange={handleFontFileUpload}
+                      />
+                    </div>
                     <select
                       value={selectedObjectProps.fontFamily || 'Inter'}
                       onChange={(e) => handleUpdateProp('fontFamily', e.target.value)}
                       style={{ background: '#1E1F22', border: '1px solid var(--panel-border)', color: '#fff', padding: '8px', borderRadius: '6px', fontSize: '12px' }}
                     >
-                      {AVAILABLE_FONTS.map(f => (
+                      {fontList.map(f => (
                         <option key={f.family} value={f.family}>{f.name}</option>
                       ))}
                     </select>

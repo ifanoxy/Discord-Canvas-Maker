@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useStore } from '../store/useStore';
 import { exportProjectToZip } from '../utils/exportZip';
 import { localApi } from '../api/localStorageApi';
+import { CanvasThumbnailPreview } from './CanvasThumbnailPreview';
 import type { Project } from '../types';
 import { 
   Sparkles, Plus, Copy, Trash2, Edit3, Check, FileArchive, 
@@ -329,17 +330,20 @@ export const Dashboard: React.FC = () => {
                 position: 'relative'
               }}
             >
-              {/* Cover Image */}
+              {/* Live Canvas Preview */}
               <div style={{ width: '100%', height: '170px', borderRadius: '10px', overflow: 'hidden', position: 'relative', marginBottom: '16px', background: '#1A1C23' }}>
-                <img
-                  src={project.coverImage || COVER_PRESETS[0]}
-                  alt={project.title}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                <CanvasThumbnailPreview
+                  width={project.images[0]?.width || 800}
+                  height={project.images[0]?.height || 450}
+                  bgConfig={project.images[0]?.bgConfig}
+                  canvasState={project.images[0]?.canvasState}
                 />
                 
-                {/* Image Count Badge */}
-                <div style={{ position: 'absolute', bottom: '10px', left: '10px', background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(6px)', padding: '4px 8px', borderRadius: '6px', fontSize: '11px', fontWeight: 600, color: '#fff', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <Images size={12} /> {project.images.length} image{project.images.length > 1 ? 's' : ''}
+                {/* Dimensions badge & Image Count */}
+                <div style={{ position: 'absolute', bottom: '10px', left: '10px', background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(6px)', padding: '4px 8px', borderRadius: '6px', fontSize: '11px', fontWeight: 600, color: '#fff', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <span style={{ color: '#5865F2' }}>{project.images[0]?.width || 800}×{project.images[0]?.height || 450}</span>
+                  <span>•</span>
+                  <span><Images size={11} style={{ display: 'inline', verticalAlign: 'middle' }} /> {project.images.length} img</span>
                 </div>
 
                 {/* Quick actions top-right */}
