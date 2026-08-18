@@ -2,79 +2,42 @@ import type { Project, WorkshopItem, CanvasImage, UserSession } from '../types';
 import type { BackgroundConfig } from '../utils/presets';
 
 const STORAGE_KEYS = {
-  PROJECTS: 'discord_canvas_projects_v6',
-  WORKSHOP: 'discord_canvas_workshop_v6',
+  PROJECTS: 'discord_canvas_projects_v7',
+  WORKSHOP: 'discord_canvas_workshop_v7',
   LIKES: 'discord_canvas_likes',
   FAVORITES: 'discord_canvas_favorites',
   CUSTOM_REPO: 'discord_canvas_github_repo'
 };
 
-export const DEFAULT_GITHUB_REPO = 'alwin/discord-canvas-maker';
+export const DEFAULT_GITHUB_REPO = 'ifanoxy/Discord-Canvas-Maker';
 export const GITHUB_RAW_MANIFEST_URL = (repo: string) => 
   `https://raw.githubusercontent.com/${repo}/main/public/workshop/community-manifest.json`;
 
 const INITIAL_LOCAL_PROJECTS: Project[] = [
   {
-    id: 'proj-cyber-suite',
-    title: 'Cyber Bot Suite 2026',
-    description: 'Pack complet de cartes de niveau, profil et bannière d\'accueil pour bot Discord.',
+    id: 'proj-starter-rank',
+    title: 'Mon Premier Projet Discord',
+    description: 'Modèle de carte de niveau et profil Discord personnalisable prêt à l\'export.',
     coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80',
-    tags: ['Cyber', 'Neon', 'Bot Suite'],
+    tags: ['Discord', 'Rank', 'Starter'],
     isPublic: true,
     author: {
       id: 'usr-local',
-      name: 'Moi (Local PC)',
-      avatar: 'https://cdn.discordapp.com/embed/avatars/0.png',
-      badge: 'PRO'
+      name: 'Utilisateur',
+      avatar: 'https://cdn.discordapp.com/embed/avatars/0.png'
     },
-    likes: 42,
-    createdAt: Date.now() - 172800000,
-    updatedAt: Date.now() - 3600000,
+    likes: 1,
+    createdAt: Date.now(),
+    updatedAt: Date.now(),
     images: [
       {
-        id: 'img-rank-1',
-        name: 'Rank Card Cyber',
+        id: 'img-starter-1',
+        name: 'Carte de Niveau Discord',
         width: 800,
         height: 450,
-        bgConfig: { type: 'preset', presetId: 'cyber-discord' },
-        canvasState: '{"version":"5.3.0","objects":[{"type":"discord-avatar","left":60,"top":125,"avatarRadius":70,"status":"online","displayMode":"both","borderColor":"#5865F2","borderWidth":4,"avatarUrl":"https://cdn.discordapp.com/embed/avatars/0.png","paramKey":"avatarUrl","paramKeyStatus":"status"},{"type":"i-text","left":230,"top":140,"text":"Alwin#0001","fontSize":32,"fontFamily":"Inter","fontWeight":"700","fill":"#FFFFFF","paramKey":"username"},{"type":"discord-role-badge","left":230,"top":190,"roleName":"Admin Discord","roleColor":"#5865F2","fontSize":15,"rx":6,"ry":6,"paramKey":"role"},{"type":"progress-bar","left":230,"top":245,"width":480,"height":28,"rx":14,"ry":14,"barStyle":"horizontal","progressValue":78,"progressMax":100,"barBackground":"#2B2D31","progressColor":"#57F287","gradientFill":true,"gradientStart":"#5865F2","gradientEnd":"#57F287","paramKey":"xpBar"}]}',
-        updatedAt: Date.now() - 3600000
-      },
-      {
-        id: 'img-profile-2',
-        name: 'Profil Compact',
-        width: 600,
-        height: 300,
-        bgConfig: { type: 'preset', presetId: 'aurora-glow' },
-        canvasState: '{"version":"5.3.0","objects":[{"type":"discord-avatar","left":40,"top":75,"avatarRadius":55,"status":"idle","displayMode":"both","borderColor":"#EB459E","borderWidth":3,"avatarUrl":"https://cdn.discordapp.com/embed/avatars/1.png","paramKey":"avatarUrl","paramKeyStatus":"status"},{"type":"i-text","left":180,"top":90,"text":"Alwin ~ Développeur","fontSize":26,"fontFamily":"Inter","fontWeight":"700","fill":"#FFFFFF","paramKey":"userBio"},{"type":"progress-bar","left":180,"top":145,"width":360,"height":20,"rx":10,"ry":10,"barStyle":"horizontal","progressValue":50,"progressMax":100,"barBackground":"#2B2D31","progressColor":"#EB459E","gradientFill":true,"gradientStart":"#EB459E","gradientEnd":"#5865F2","paramKey":"levelBar"}]}',
-        updatedAt: Date.now() - 3600000
-      }
-    ]
-  },
-  {
-    id: 'proj-community-pack',
-    title: 'Pack Serveur Communautaire',
-    description: 'Ensemble de cartes de bienvenue et annonces textuelles modernes.',
-    coverImage: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&auto=format&fit=crop&q=80',
-    tags: ['Welcome', 'Serveur', 'Community'],
-    isPublic: true,
-    author: {
-      id: 'usr-local',
-      name: 'Moi (Local PC)',
-      avatar: 'https://cdn.discordapp.com/embed/avatars/2.png'
-    },
-    likes: 18,
-    createdAt: Date.now() - 86400000,
-    updatedAt: Date.now() - 7200000,
-    images: [
-      {
-        id: 'img-welcome-1',
-        name: 'Welcome Banner',
-        width: 960,
-        height: 540,
-        bgConfig: { type: 'preset', presetId: 'aurora-glow' },
-        canvasState: '{"version":"5.3.0","objects":[{"type":"discord-avatar","left":405,"top":100,"avatarRadius":75,"status":"none","displayMode":"avatar-only","borderColor":"#EB459E","borderWidth":4,"avatarUrl":"https://cdn.discordapp.com/embed/avatars/2.png","paramKey":"memberAvatar"},{"type":"i-text","left":480,"top":280,"originX":"center","text":"BIENVENUE SUR LE SERVEUR","fontSize":34,"fontFamily":"Inter","fontWeight":"800","fill":"#FFFFFF","paramKey":"headerText"},{"type":"i-text","left":480,"top":330,"originX":"center","text":"Membre #1 284","fontSize":20,"fontFamily":"Inter","fontWeight":"500","fill":"#00F0FF","paramKey":"memberCount"}]}',
-        updatedAt: Date.now() - 7200000
+        bgConfig: { type: 'preset', presetId: 'frosted-glass' },
+        canvasState: '{"version":"5.3.0","objects":[{"type":"discord-avatar","left":60,"top":125,"avatarRadius":70,"status":"online","displayMode":"both","borderColor":"#5865F2","borderWidth":4,"avatarUrl":"https://cdn.discordapp.com/embed/avatars/0.png","paramKey":"avatarUrl","paramKeyStatus":"status"},{"type":"i-text","left":230,"top":140,"text":"Pseudo#0001","fontSize":32,"fontFamily":"Inter","fontWeight":"700","fill":"#FFFFFF","paramKey":"username"},{"type":"discord-role-badge","left":230,"top":190,"roleName":"Membre Discord","roleColor":"#5865F2","fontSize":15,"rx":6,"ry":6,"paramKey":"role"},{"type":"progress-bar","left":230,"top":245,"width":480,"height":28,"rx":14,"ry":14,"barStyle":"horizontal","progressValue":75,"progressMax":100,"barBackground":"#2B2D31","progressColor":"#57F287","gradientFill":true,"gradientStart":"#5865F2","gradientEnd":"#57F287","paramKey":"xpBar"}]}',
+        updatedAt: Date.now()
       }
     ]
   }
@@ -83,10 +46,10 @@ const INITIAL_LOCAL_PROJECTS: Project[] = [
 class LocalClientStorageApi {
   private userSession: UserSession = {
     id: 'usr-local',
-    name: 'Moi (Local PC)',
+    name: 'Utilisateur',
     avatar: 'https://cdn.discordapp.com/embed/avatars/0.png',
-    role: 'admin',
-    exportQuota: 50,
+    role: 'member',
+    exportQuota: 100,
     exportsUsed: 0,
     rateLimitReset: Date.now() + 60000
   };
@@ -138,7 +101,7 @@ class LocalClientStorageApi {
           name: 'Image 1',
           width: 800,
           height: 450,
-          bgConfig: { type: 'preset', presetId: 'cyber-discord' },
+          bgConfig: { type: 'preset', presetId: 'frosted-glass' },
           canvasState: '',
           updatedAt: Date.now()
         }
@@ -147,6 +110,19 @@ class LocalClientStorageApi {
     list.unshift(newProj);
     this.saveProjects(list);
     return newProj;
+  }
+
+  // Save / Upsert project
+  async saveProject(project: Project): Promise<Project> {
+    const list = await this.getProjects();
+    const idx = list.findIndex(p => p.id === project.id);
+    if (idx >= 0) {
+      list[idx] = { ...project, updatedAt: Date.now() };
+    } else {
+      list.unshift(project);
+    }
+    this.saveProjects(list);
+    return project;
   }
 
   // Update project
@@ -220,7 +196,7 @@ class LocalClientStorageApi {
       name: name || `Image ${proj.images.length + 1}`,
       width: w,
       height: h,
-      bgConfig: bgConfig || { type: 'preset', presetId: 'cyber-discord' },
+      bgConfig: bgConfig || { type: 'preset', presetId: 'frosted-glass' },
       canvasState: '',
       updatedAt: Date.now()
     };
@@ -270,7 +246,7 @@ class LocalClientStorageApi {
           rawItems = await localRes.json();
         }
       } catch (e) {
-        console.warn('Erreur chargement local workshop:', e);
+        console.warn('Erreur chargement workshop local:', e);
       }
     }
 
@@ -278,7 +254,6 @@ class LocalClientStorageApi {
     const favs = this.getLocalFavorites();
 
     return rawItems.map(item => {
-      // Reconstruct projectData if not explicitly provided
       const projData: Project = item.projectData || {
         id: item.id,
         title: item.title,
@@ -363,18 +338,6 @@ class LocalClientStorageApi {
     list.unshift(newProj);
     this.saveProjects(list);
     return newProj;
-  }
-
-  async saveProject(project: Project): Promise<Project> {
-    const list = await this.getProjects();
-    const idx = list.findIndex(p => p.id === project.id);
-    if (idx >= 0) {
-      list[idx] = { ...project, updatedAt: Date.now() };
-    } else {
-      list.unshift(project);
-    }
-    this.saveProjects(list);
-    return project;
   }
 
   // Aliases for compatibility

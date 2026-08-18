@@ -92,7 +92,7 @@ async function main() {
   console.log('Rendering Discord Canvas Card...');
   
   const buffer = await generateDiscordCard({
-    username: 'Alwin',
+    username: 'DiscordUser',
     avatarUrl: 'https://cdn.discordapp.com/embed/avatars/0.png',
     status: 'online',
     role: { name: 'Admin Discord', color: '#5865F2' },
@@ -112,7 +112,7 @@ async function main() {
   console.log('Rendering Discord Canvas Card...');
   
   const buffer = await generateDiscordCard({
-    username: 'Alwin',
+    username: 'DiscordUser',
     avatarUrl: 'https://cdn.discordapp.com/embed/avatars/0.png',
     status: 'online',
     role: { name: 'Admin Discord', color: '#5865F2' },

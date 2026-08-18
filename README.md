@@ -40,8 +40,8 @@
 ### Installation
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/alwin/discord-canvas-maker.git
-cd discord-canvas-maker
+git clone https://github.com/ifanoxy/Discord-Canvas-Maker.git
+cd Discord-Canvas-Maker
 
 # 2. Installer les dépendances
 npm install
