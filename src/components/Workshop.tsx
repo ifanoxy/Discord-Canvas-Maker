@@ -4,8 +4,8 @@ import { useStore } from '../store/useStore';
 import { localApi } from '../api/localStorageApi';
 import type { WorkshopItem } from '../types';
 import { 
-  Sparkles, Heart, Bookmark, Download, Search, 
-  ArrowLeft, ArrowRight, Flame, GitPullRequest, 
+  Sparkles, Bookmark, Download, Search, 
+  ArrowLeft, ArrowRight, GitPullRequest, 
   RefreshCw, Copy, Check, ExternalLink, GitBranch
 } from 'lucide-react';
 
@@ -16,7 +16,6 @@ export const Workshop: React.FC = () => {
   const [items, setItems] = useState<WorkshopItem[]>([]);
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
-  const [sortBy, setSortBy] = useState<'popular' | 'recent' | 'downloads'>('popular');
   const [cloningId, setCloningId] = useState<string | null>(null);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
@@ -47,21 +46,6 @@ export const Workshop: React.FC = () => {
       setSelectedProjectId(projects[0].id);
     }
   }, [projects]);
-
-  const handleToggleLike = async (item: WorkshopItem, e: React.MouseEvent) => {
-    e.stopPropagation();
-    try {
-      const res = await localApi.toggleLike(item.id);
-      setItems(prev => prev.map(i => i.id === item.id ? { ...i, likes: i.likes + (res.isLiked ? 1 : -1), isLiked: res.isLiked } : i));
-      addToast({
-        type: 'info',
-        title: res.isLiked ? 'Aimé !' : 'Like retiré',
-        message: res.isLiked ? `Vous aimez "${item.title}".` : `Like retiré de "${item.title}".`
-      });
-    } catch {
-      addToast({ type: 'error', title: 'Erreur', message: 'Action impossible.' });
-    }
-  };
 
   const handleToggleFavorite = async (item: WorkshopItem, e: React.MouseEvent) => {
     e.stopPropagation();
@@ -112,12 +96,7 @@ export const Workshop: React.FC = () => {
 
   const filteredItems = items
     .filter(i => activeCategory === 'all' || i.category === activeCategory)
-    .filter(i => i.title.toLowerCase().includes(searchQuery.toLowerCase()) || i.tags?.some(t => t.toLowerCase().includes(searchQuery.toLowerCase())))
-    .sort((a, b) => {
-      if (sortBy === 'popular') return (b.likes || 0) - (a.likes || 0);
-      if (sortBy === 'downloads') return (b.downloads || 0) - (a.downloads || 0);
-      return 0;
-    });
+    .filter(i => i.title.toLowerCase().includes(searchQuery.toLowerCase()) || i.tags?.some(t => t.toLowerCase().includes(searchQuery.toLowerCase())));
 
   // Selected project for PR export
   const currentSelectedProj = projects.find(p => p.id === selectedProjectId) || projects[0];
@@ -236,7 +215,7 @@ export const Workshop: React.FC = () => {
       <section style={{ maxWidth: '1240px', margin: '0 auto', padding: '48px 32px 24px', width: '100%' }}>
         <div style={{ textAlign: 'center', marginBottom: '36px' }}>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', background: 'rgba(235,69,158,0.12)', color: '#EB459E', padding: '6px 14px', borderRadius: '20px', fontSize: '12px', fontWeight: 700, marginBottom: '12px' }}>
-            <Flame size={14} /> 100% LOCAL & GITHUB OPEN-SOURCE
+            <Sparkles size={14} /> 100% LOCAL & GITHUB OPEN-SOURCE
           </div>
           <h2 style={{ fontSize: '36px', fontWeight: 800, color: '#FFFFFF', letterSpacing: '-0.5px', margin: 0 }}>
             Marketplace & Templates Communautaires
@@ -276,42 +255,24 @@ export const Workshop: React.FC = () => {
             ))}
           </div>
 
-          {/* Search Box & Sort */}
-          <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
-            <div style={{ position: 'relative', width: '240px' }}>
-              <Search size={15} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: '#64748B' }} />
-              <input
-                type="text"
-                placeholder="Rechercher un modèle..."
-                value={searchQuery}
-                onChange={e => setSearchQuery(e.target.value)}
-                style={{
-                  width: '100%',
-                  background: '#111318',
-                  border: '1px solid rgba(255,255,255,0.08)',
-                  borderRadius: '8px',
-                  padding: '7px 10px 7px 34px',
-                  color: '#FFFFFF',
-                  fontSize: '13px',
-                }}
-              />
-            </div>
-
-            <select
-              value={sortBy}
-              onChange={e => setSortBy(e.target.value as any)}
+          {/* Search Box */}
+          <div style={{ position: 'relative', width: '280px' }}>
+            <Search size={15} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: '#64748B' }} />
+            <input
+              type="text"
+              placeholder="Rechercher un modèle..."
+              value={searchQuery}
+              onChange={e => setSearchQuery(e.target.value)}
               style={{
+                width: '100%',
                 background: '#111318',
                 border: '1px solid rgba(255,255,255,0.08)',
                 borderRadius: '8px',
-                padding: '7px 10px',
+                padding: '7px 10px 7px 34px',
                 color: '#FFFFFF',
                 fontSize: '13px',
               }}
-            >
-              <option value="popular">🔥 Les plus aimés</option>
-              <option value="downloads">⚡ Téléchargements</option>
-            </select>
+            />
           </div>
 
         </div>
@@ -319,7 +280,57 @@ export const Workshop: React.FC = () => {
 
       {/* 3. WORKSHOP ITEMS GRID */}
       <main style={{ maxWidth: '1240px', margin: '0 auto', padding: '0 32px 80px', width: '100%', flex: 1 }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '24px' }}>
+        {filteredItems.length === 0 ? (
+          <div style={{
+            background: '#101216',
+            border: '1px solid rgba(255,255,255,0.06)',
+            borderRadius: '16px',
+            padding: '60px 24px',
+            textAlign: 'center',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '16px',
+            maxWidth: '640px',
+            margin: '40px auto'
+          }}>
+            <div style={{ width: '64px', height: '64px', borderRadius: '16px', background: 'rgba(88,101,242,0.12)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#5865F2' }}>
+              <GitPullRequest size={32} />
+            </div>
+
+            <div>
+              <h3 style={{ fontSize: '18px', fontWeight: 700, margin: '0 0 8px', color: '#FFFFFF' }}>
+                Le Workshop GitHub est prêt à recevoir vos créations !
+              </h3>
+              <p style={{ fontSize: '14px', color: '#94A3B8', margin: 0, lineHeight: '1.6' }}>
+                Le dépôt GitHub <code style={{ color: '#5865F2' }}>{currentRepo}</code> ne contient pas encore de modèles dans <code style={{ color: '#57F287' }}>community-manifest.json</code>.<br />
+                Soyez le premier à proposer un design à la communauté via une Pull Request !
+              </p>
+            </div>
+
+            <button
+              onClick={() => setShowSubmitModal(true)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                background: '#238636',
+                color: '#FFFFFF',
+                padding: '10px 20px',
+                borderRadius: '8px',
+                fontSize: '13px',
+                fontWeight: 600,
+                border: 'none',
+                cursor: 'pointer',
+                boxShadow: '0 4px 14px rgba(35,134,54,0.35)',
+                marginTop: '8px'
+              }}
+            >
+              <GitPullRequest size={16} /> Proposer le 1er Modèle (PR GitHub)
+            </button>
+          </div>
+        ) : (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '24px' }}>
           {filteredItems.map(item => {
             const imageCount = item.projectData?.images?.length || 1;
             const authorDisplayName = typeof item.author === 'object' ? item.author.name : item.author;
@@ -351,39 +362,26 @@ export const Workshop: React.FC = () => {
                     {imageCount} image{imageCount > 1 ? 's' : ''}
                   </div>
 
-                  {/* Like & Favorite Actions */}
-                  <div style={{ position: 'absolute', top: '10px', right: '10px', display: 'flex', gap: '6px' }}>
-                    <button
-                      onClick={(e) => handleToggleLike(item, e)}
-                      style={{
-                        background: item.isLiked ? '#ED4245' : 'rgba(0,0,0,0.6)',
-                        color: '#FFFFFF',
-                        border: 'none',
-                        padding: '6px 10px',
-                        borderRadius: '8px',
-                        fontSize: '11px',
-                        fontWeight: 700,
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '4px',
-                        cursor: 'pointer'
-                      }}
-                    >
-                      <Heart size={13} fill={item.isLiked ? '#FFFFFF' : 'none'} /> {item.likes || 0}
-                    </button>
-
+                  {/* Favorite Action */}
+                  <div style={{ position: 'absolute', top: '10px', right: '10px' }}>
                     <button
                       onClick={(e) => handleToggleFavorite(item, e)}
                       style={{
                         background: item.isFavorited ? '#FEE75C' : 'rgba(0,0,0,0.6)',
                         color: item.isFavorited ? '#000000' : '#FFFFFF',
                         border: 'none',
-                        padding: '6px',
+                        padding: '6px 10px',
                         borderRadius: '8px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        fontSize: '12px',
+                        fontWeight: 600,
                         cursor: 'pointer'
                       }}
                     >
                       <Bookmark size={13} fill={item.isFavorited ? '#000000' : 'none'} />
+                      <span>{item.isFavorited ? 'Favori' : 'Sauvegarder'}</span>
                     </button>
                   </div>
                 </div>
@@ -435,7 +433,8 @@ export const Workshop: React.FC = () => {
               </div>
             );
           })}
-        </div>
+          </div>
+        )}
       </main>
 
       {/* 4. MODAL: GITHUB PULL REQUEST SUBMISSION */}

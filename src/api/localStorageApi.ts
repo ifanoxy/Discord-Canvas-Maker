@@ -2,9 +2,8 @@ import type { Project, WorkshopItem, CanvasImage, UserSession } from '../types';
 import type { BackgroundConfig } from '../utils/presets';
 
 const STORAGE_KEYS = {
-  PROJECTS: 'discord_canvas_projects_v7',
-  WORKSHOP: 'discord_canvas_workshop_v7',
-  LIKES: 'discord_canvas_likes',
+  PROJECTS: 'discord_canvas_projects_v8',
+  WORKSHOP: 'discord_canvas_workshop_v8',
   FAVORITES: 'discord_canvas_favorites',
   CUSTOM_REPO: 'discord_canvas_github_repo'
 };
@@ -26,7 +25,6 @@ const INITIAL_LOCAL_PROJECTS: Project[] = [
       name: 'Utilisateur',
       avatar: 'https://cdn.discordapp.com/embed/avatars/0.png'
     },
-    likes: 1,
     createdAt: Date.now(),
     updatedAt: Date.now(),
     images: [
@@ -92,7 +90,6 @@ class LocalClientStorageApi {
         name: this.userSession.name,
         avatar: this.userSession.avatar
       },
-      likes: 0,
       createdAt: Date.now(),
       updatedAt: Date.now(),
       images: [
@@ -250,7 +247,6 @@ class LocalClientStorageApi {
       }
     }
 
-    const likes = this.getLocalLikes();
     const favs = this.getLocalFavorites();
 
     return rawItems.map(item => {
@@ -264,7 +260,6 @@ class LocalClientStorageApi {
         author: typeof item.author === 'string' 
           ? { id: 'usr-author', name: item.author, avatar: 'https://cdn.discordapp.com/embed/avatars/0.png' }
           : item.author,
-        likes: item.likes || 0,
         createdAt: Date.now(),
         updatedAt: Date.now(),
         images: item.images || []
@@ -279,22 +274,11 @@ class LocalClientStorageApi {
         author: typeof item.author === 'string'
           ? { id: 'usr-author', name: item.author, avatar: 'https://cdn.discordapp.com/embed/avatars/0.png' }
           : item.author,
-        likes: item.likes || 0,
-        downloads: item.downloads || 0,
         tags: item.tags || [],
-        isLiked: !!likes[item.id],
         isFavorited: !!favs[item.id],
         projectData: projData
       };
     });
-  }
-
-  private getLocalLikes(): Record<string, boolean> {
-    try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEYS.LIKES) || '{}');
-    } catch {
-      return {};
-    }
   }
 
   private getLocalFavorites(): Record<string, boolean> {
@@ -303,14 +287,6 @@ class LocalClientStorageApi {
     } catch {
       return {};
     }
-  }
-
-  async toggleLike(itemId: string): Promise<{ likes: number; isLiked: boolean }> {
-    const likes = this.getLocalLikes();
-    const isLiked = !likes[itemId];
-    likes[itemId] = isLiked;
-    localStorage.setItem(STORAGE_KEYS.LIKES, JSON.stringify(likes));
-    return { likes: isLiked ? 1 : 0, isLiked };
   }
 
   async toggleFavorite(itemId: string): Promise<boolean> {
@@ -341,7 +317,6 @@ class LocalClientStorageApi {
   }
 
   // Aliases for compatibility
-  async toggleLikeWorkshopItem(id: string) { return this.toggleLike(id); }
   async toggleFavoriteWorkshopItem(id: string) { return this.toggleFavorite(id); }
   async cloneWorkshopProject(id: string) {
     const items = await this.getWorkshopItems();
@@ -366,8 +341,6 @@ class LocalClientStorageApi {
       author: authorName || 'Auteur Discord',
       category: category || 'rank',
       tags: project.tags || ['Community'],
-      likes: 1,
-      downloads: 0,
       coverImage: project.coverImage || 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80',
       images: project.images.map(img => ({
         id: img.id,

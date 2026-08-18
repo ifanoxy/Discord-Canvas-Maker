@@ -23,7 +23,6 @@ export interface Project {
     avatar: string;
     badge?: string;
   };
-  likes: number;
   createdAt: number;
   updatedAt: number;
   images: CanvasImage[];
@@ -41,10 +40,7 @@ export interface WorkshopItem {
     avatar: string;
     badge?: string;
   };
-  likes: number;
-  isLiked?: boolean;
   isFavorited?: boolean;
-  downloads: number;
   tags: string[];
   projectData: Project;
 }

@@ -136,10 +136,9 @@ export const useStore = create<AppState>((set, get) => ({
       isPublic: false,
       author: {
         id: 'usr-1',
-        name: 'Wumpus Developer',
+        name: 'Utilisateur',
         avatar: 'https://cdn.discordapp.com/embed/avatars/0.png'
       },
-      likes: 0,
       createdAt: Date.now(),
       updatedAt: Date.now(),
       images: [defaultImage]
