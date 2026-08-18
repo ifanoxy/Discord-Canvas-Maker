@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Discord Canvas Maker — Studio Visuel de Cartes & Bannières Canvas</title>
+    <meta name="title" content="Discord Canvas Maker — Studio Visuel de Cartes & Bannières Canvas" />
+    <meta name="description" content="Concevez visuellement des cartes de niveau, bannières et profils Discord d'exception. Exportez du code Node.js Canvas en TypeScript ou JavaScript prêt à l'emploi. 100% Local & Open-Source." />
+    <meta name="theme-color" content="#5865F2" />
+    <meta name="keywords" content="discord, canvas, node-canvas, rank card, discord bot, typescript, visual editor, banner, discord maker" />
+    <meta name="author" content="Discord Canvas Maker Community" />
+
+    <!-- Open Graph / Discord / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://alwin.github.io/discord-canvas-maker/" />
+    <meta property="og:title" content="Discord Canvas Maker — Studio Visuel de Cartes & Bannières Canvas" />
+    <meta property="og:description" content="Concevez visuellement des cartes de niveau, bannières et profils Discord d'exception. Exportez du code Node.js Canvas en TypeScript ou JavaScript prêt à l'emploi." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Discord Canvas Maker — Studio Visuel de Cartes Canvas" />
+    <meta property="twitter:description" content="Concevez visuellement vos cartes Discord et exportez le code Node-canvas TypeScript / JS en un clic." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80" />
+
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <!-- Google Fonts Preconnect & Inter / Fira Code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+
+    <!-- Single Page App (SPA) redirect handler for GitHub Pages -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg-color: #07080B;
+  --panel-bg: rgba(16, 18, 24, 0.7);
+  --panel-border: rgba(255, 255, 255, 0.07);
+  --text-primary: #FFFFFF;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --accent-color: #5865F2; /* Discord Blurple */
+  --accent-hover: #4752C4;
+  --accent-glow: rgba(88, 101, 242, 0.25);
+  --danger-color: #ED4245;
+  --success-color: #57F287;
+  --warning-color: #FEE75C;
+  
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 8px 24px -4px rgba(0, 0, 0, 0.4);
+  --shadow-glass: 0 12px 40px 0 rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 40px -10px rgba(88, 101, 242, 0.4);
+  
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: var(--panel-bg);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--panel-border);
+}
+
+/* Modern Card with hover depth */
+.air-card {
+  background: rgba(18, 20, 28, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-lg);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.air-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(88, 101, 242, 0.4);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7), 0 0 30px -10px rgba(88, 101, 242, 0.25);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+input, select, textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+/* Checkerboard pattern for transparent canvas */
+.transparent-canvas-grid {
+  background-image: 
+    linear-gradient(45deg, #131418 25%, transparent 25%), 
+    linear-gradient(-45deg, #131418 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #131418 75%), 
+    linear-gradient(-45deg, transparent 75%, #131418 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+  background-color: #1F2127;
+}
+
+/* Interactive Canvas Resize Handles */
+.canvas-resize-handle-r {
+  position: absolute;
+  top: 0;
+  right: -6px;
+  width: 12px;
+  height: 100%;
+  cursor: ew-resize;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas-resize-handle-r::after {
+  content: '';
+  width: 4px;
+  height: 32px;
+  border-radius: 2px;
+  background: rgba(88, 101, 242, 0.6);
+  transition: all 0.2s ease;
+}
+
+.canvas-resize-handle-r:hover::after {
+  background: #5865F2;
+  height: 48px;
+  box-shadow: 0 0 10px #5865F2;
+}
+
+.canvas-resize-handle-b {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  cursor: ns-resize;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas-resize-handle-b::after {
+  content: '';
+  width: 32px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(88, 101, 242, 0.6);
+  transition: all 0.2s ease;
+}
+
+.canvas-resize-handle-b:hover::after {
+  background: #5865F2;
+  width: 48px;
+  box-shadow: 0 0 10px #5865F2;
+}
+
+.canvas-resize-handle-br {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  width: 16px;
+  height: 16px;
+  cursor: nwse-resize;
+  z-index: 35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas-resize-handle-br::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #5865F2;
+  box-shadow: 0 0 8px rgba(88, 101, 242, 0.9);
+  transition: transform 0.2s ease;
+}
+
+.canvas-resize-handle-br:hover::after {
+  transform: scale(1.3);
+  background: #ffffff;
+}
+
+/* Subtle background glow effect */
+.ambient-glow {
+  position: absolute;
+  pointer-events: none;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.25;
+}

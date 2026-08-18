@@ -1,0 +1,146 @@
+[
+  {
+    "id": "tpl-cyber-rank",
+    "title": "Cyber Rank Card Neon",
+    "description": "Carte de niveau futuriste avec jauge en dégradé Discord Blurple/Emerald et badge de rôle dynamique.",
+    "author": "Nox_Dev",
+    "category": "rank",
+    "tags": ["Rank", "XP", "Level", "Cyber"],
+    "likes": 342,
+    "downloads": 1280,
+    "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-cyber-rank-1",
+        "name": "Rank Card 16:9",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "cyber-discord"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":125,\"avatarRadius\":70,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#5865F2\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/0.png\",\"paramKey\":\"avatarUrl\",\"paramKeyStatus\":\"status\"},{\"type\":\"i-text\",\"left\":230,\"top\":140,\"text\":\"ShadowGamer#0001\",\"fontSize\":32,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#FFFFFF\",\"paramKey\":\"username\"},{\"type\":\"discord-role-badge\",\"left\":230,\"top\":190,\"roleName\":\"Champion Cyber\",\"roleColor\":\"#5865F2\",\"fontSize\":15,\"rx\":6,\"ry\":6,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":230,\"top\":245,\"width\":480,\"height\":28,\"rx\":14,\"ry\":14,\"barStyle\":\"horizontal\",\"progressValue\":78,\"progressMax\":100,\"barBackground\":\"#2B2D31\",\"progressColor\":\"#57F287\",\"gradientFill\":true,\"gradientStart\":\"#5865F2\",\"gradientEnd\":\"#57F287\",\"paramKey\":\"xpBar\"}]}"
+      }
+    ]
+  },
+  {
+    "id": "tpl-nitro-welcome",
+    "title": "Welcome Banner Nitro Glow",
+    "description": "Bannière d'accueil premium avec fond cosmique aurora, avatar central et texte de bienvenue personnalisable.",
+    "author": "AuraDesign",
+    "category": "welcome",
+    "tags": ["Welcome", "Banner", "Nitro", "Cosmic"],
+    "likes": 512,
+    "downloads": 2430,
+    "coverImage": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-nitro-welcome-1",
+        "name": "Welcome Banner",
+        "width": 960,
+        "height": 540,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "aurora-glow"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":405,\"top\":100,\"avatarRadius\":75,\"status\":\"none\",\"displayMode\":\"avatar-only\",\"borderColor\":\"#EB459E\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/1.png\",\"paramKey\":\"memberAvatar\"},{\"type\":\"i-text\",\"left\":480,\"top\":280,\"originX\":\"center\",\"text\":\"BIENVENUE SUR LE SERVEUR\",\"fontSize\":34,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FFFFFF\",\"paramKey\":\"headerText\"},{\"type\":\"i-text\",\"left\":480,\"top\":330,\"originX\":\"center\",\"text\":\"Membre #1 284\",\"fontSize\":20,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#00F0FF\",\"paramKey\":\"memberCount\"}]}"
+      }
+    ]
+  },
+  {
+    "id": "tpl-rpg-statcard",
+    "title": "RPG Player Stats & Radar",
+    "description": "Carte de profil de jeu de rôle avec multi-jauges (HP, Mana, Endurance) et anneaux circulaires.",
+    "author": "KronoGames",
+    "category": "gaming",
+    "tags": ["RPG", "Gaming", "Stats", "HealthBar"],
+    "likes": 289,
+    "downloads": 950,
+    "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-rpg-stat-1",
+        "name": "Stats Profile",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "isometric-hex"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":50,\"top\":80,\"avatarRadius\":60,\"status\":\"dnd\",\"displayMode\":\"both\",\"borderColor\":\"#ED4245\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/2.png\",\"paramKey\":\"heroAvatar\"},{\"type\":\"i-text\",\"left\":200,\"top\":90,\"text\":\"Guerrier Niveau 84\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#FEE75C\",\"paramKey\":\"heroTitle\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":145,\"width\":420,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":90,\"progressMax\":100,\"barBackground\":\"#2B2D31\",\"progressColor\":\"#ED4245\",\"gradientFill\":true,\"gradientStart\":\"#ED4245\",\"gradientEnd\":\"#FFAA00\",\"paramKey\":\"hpBar\"},{\"type\":\"progress-bar\",\"left\":200,\"top\":185,\"width\":420,\"height\":22,\"rx\":11,\"ry\":11,\"barStyle\":\"horizontal\",\"progressValue\":65,\"progressMax\":100,\"barBackground\":\"#2B2D31\",\"progressColor\":\"#5865F2\",\"gradientFill\":true,\"gradientStart\":\"#5865F2\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"manaBar\"},{\"type\":\"progress-bar\",\"left\":640,\"top\":80,\"width\":110,\"height\":110,\"rx\":14,\"ry\":14,\"barStyle\":\"circular\",\"progressValue\":85,\"progressMax\":100,\"barBackground\":\"#2B2D31\",\"progressColor\":\"#57F287\",\"gradientFill\":true,\"gradientStart\":\"#57F287\",\"gradientEnd\":\"#FEE75C\",\"showPercentageText\":true,\"paramKey\":\"staminaRing\"}]}"
+      }
+    ]
+  },
+  {
+    "id": "tpl-synthwave-leaderboard",
+    "title": "Synthwave Retro Leaderboard",
+    "description": "Template rétro années 80 avec horizon fluo violet/rose et barre de progression segmentée.",
+    "author": "VaporLord",
+    "category": "gaming",
+    "tags": ["Synthwave", "Retro", "Leaderboard"],
+    "likes": 415,
+    "downloads": 1780,
+    "coverImage": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-synth-1",
+        "name": "Synthwave Card",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "synthwave-grid"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":100,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"both\",\"borderColor\":\"#00F0FF\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/3.png\",\"paramKey\":\"userAvatar\"},{\"type\":\"i-text\",\"left\":220,\"top\":110,\"text\":\"TOP 1 SERVEUR\",\"fontSize\":28,\"fontFamily\":\"Inter\",\"fontWeight\":\"800\",\"fill\":\"#FEE75C\",\"paramKey\":\"topTitle\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":170,\"width\":460,\"height\":30,\"rx\":6,\"ry\":6,\"barStyle\":\"segmented\",\"segments\":12,\"progressValue\":8,\"progressMax\":12,\"barBackground\":\"#1A0B2E\",\"progressColor\":\"#EB459E\",\"gradientFill\":true,\"gradientStart\":\"#EB459E\",\"gradientEnd\":\"#00F0FF\",\"paramKey\":\"rankSegments\"}]}"
+      }
+    ]
+  },
+  {
+    "id": "tpl-matrix-terminal",
+    "title": "Matrix Terminal Bot Interface",
+    "description": "Design Matrix Hacker avec pluie de caractères verts, avatar cybernétique et salon textuel.",
+    "author": "NeoAdmin",
+    "category": "stats",
+    "tags": ["Matrix", "Cyberpunk", "Terminal", "Bot"],
+    "likes": 198,
+    "downloads": 820,
+    "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-matrix-1",
+        "name": "Matrix Terminal",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "neon-matrix"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":60,\"top\":120,\"avatarRadius\":65,\"status\":\"online\",\"displayMode\":\"avatar-only\",\"borderColor\":\"#57F287\",\"borderWidth\":3,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/4.png\",\"paramKey\":\"botAvatar\"},{\"type\":\"i-text\",\"left\":220,\"top\":120,\"text\":\"SECURITY BOT // V2.4\",\"fontSize\":26,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#57F287\",\"paramKey\":\"botName\"},{\"type\":\"i-text\",\"left\":220,\"top\":170,\"text\":\"# logs-serveur\",\"fontSize\":20,\"fontFamily\":\"Inter\",\"fontWeight\":\"500\",\"fill\":\"#94A3B8\",\"paramKey\":\"channelName\"},{\"type\":\"progress-bar\",\"left\":220,\"top\":220,\"width\":460,\"height\":24,\"rx\":6,\"ry\":6,\"barStyle\":\"horizontal\",\"progressValue\":98,\"progressMax\":100,\"barBackground\":\"#07140E\",\"progressColor\":\"#57F287\",\"paramKey\":\"uptimeBar\"}]}"
+      }
+    ]
+  },
+  {
+    "id": "tpl-pastel-anime",
+    "title": "Pastel Sakura Anime Card",
+    "description": "Ambiance douce pastel rose & violette avec coins ultra-arrondis et badges élégants.",
+    "author": "SakuraChan",
+    "category": "anime",
+    "tags": ["Pastel", "Anime", "Sakura", "Cute"],
+    "likes": 640,
+    "downloads": 3100,
+    "coverImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
+    "images": [
+      {
+        "id": "img-pastel-1",
+        "name": "Sakura Card",
+        "width": 800,
+        "height": 450,
+        "bgConfig": {
+          "type": "preset",
+          "presetId": "vaporwave-pastel"
+        },
+        "canvasState": "{\"version\":\"5.3.0\",\"objects\":[{\"type\":\"discord-avatar\",\"left\":70,\"top\":110,\"avatarRadius\":70,\"status\":\"idle\",\"displayMode\":\"both\",\"borderColor\":\"#FF80BF\",\"borderWidth\":4,\"avatarUrl\":\"https://cdn.discordapp.com/embed/avatars/5.png\",\"paramKey\":\"userAvatar\"},{\"type\":\"i-text\",\"left\":240,\"top\":130,\"text\":\"🌸 Yuna ~ Waifu\",\"fontSize\":30,\"fontFamily\":\"Inter\",\"fontWeight\":\"700\",\"fill\":\"#FFFFFF\",\"paramKey\":\"title\"},{\"type\":\"discord-role-badge\",\"left\":240,\"top\":180,\"roleName\":\"Membre VIP ✨\",\"roleColor\":\"#FF80BF\",\"fontSize\":15,\"rx\":8,\"ry\":8,\"paramKey\":\"role\"},{\"type\":\"progress-bar\",\"left\":240,\"top\":230,\"width\":440,\"height\":26,\"rx\":13,\"ry\":13,\"barStyle\":\"horizontal\",\"progressValue\":80,\"progressMax\":100,\"barBackground\":\"#2B1A3A\",\"progressColor\":\"#FF80BF\",\"gradientFill\":true,\"gradientStart\":\"#FF80BF\",\"gradientEnd\":\"#FEE75C\",\"paramKey\":\"affectionBar\"}]}"
+      }
+    ]
+  }
+]
